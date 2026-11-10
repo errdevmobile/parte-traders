@@ -15,7 +15,7 @@ PARTE="$HOME/parte"
 
 echo "==> 1/6 Paquetes del sistema y zona horaria"
 sudo apt-get update -y
-sudo apt-get install -y git make curl ca-certificates python3 tzdata
+sudo apt-get install -y git make curl ca-certificates python3 tzdata build-essential
 sudo timedatectl set-timezone Europe/Madrid || true
 
 # Máquinas pequeñas (1 GB de RAM, como la gratuita de Google Cloud): añadir
@@ -38,7 +38,7 @@ go version
 
 echo "==> 3/6 Servicio de WhatsApp (mcp-whatsapp)"
 if [ -d "$APP/.git" ]; then git -C "$APP" pull --ff-only; else git clone https://github.com/Sealjay/mcp-whatsapp.git "$APP"; fi
-( cd "$APP" && GOTOOLCHAIN=auto make build )
+( cd "$APP" && CGO_ENABLED=1 GOTOOLCHAIN=auto make build )   # SQLite necesita cgo (compilador C)
 mkdir -p "$STORE/uploads"
 
 echo "==> 4/6 Script del parte"
@@ -56,10 +56,14 @@ fi
 
 echo "==> 5/6 Vincular WhatsApp"
 if [ ! -f "$STORE/.paired" ]; then
+  systemctl --user stop whatsapp-mcp 2>/dev/null || true
   echo "Se mostrará un código QR. En el móvil: WhatsApp > Ajustes > Dispositivos vinculados > Vincular dispositivo."
-  echo "Cuando diga que está vinculado, pulsa Ctrl+C si no termina solo."
-  "$APP/bin/whatsapp-mcp" -store "$STORE" login || true
-  touch "$STORE/.paired"
+  if "$APP/bin/whatsapp-mcp" -store "$STORE" login; then
+    touch "$STORE/.paired"
+  else
+    echo "!! No se ha podido vincular WhatsApp. Revisa el error de arriba y vuelve a ejecutar: bash setup.sh"
+    exit 1
+  fi
 fi
 
 echo "==> 6/6 Servicios automáticos (systemd)"
@@ -102,7 +106,7 @@ WantedBy=timers.target
 EOF
 sudo loginctl enable-linger "$USER"
 systemctl --user daemon-reload
-systemctl --user enable --now whatsapp-mcp.service
+systemctl --user enable whatsapp-mcp.service && systemctl --user restart whatsapp-mcp.service
 systemctl --user enable --now parte.timer
 
 echo
