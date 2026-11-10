@@ -58,6 +58,7 @@
   .meme .mm{position:relative;flex:0 0 auto;align-self:center;width:84px;height:130px;margin:6px 0;filter:drop-shadow(0 4px 0 #0007);animation:bob 2.4s ease-in-out infinite}
   @keyframes bob{50%{transform:translateY(-5px) rotate(-3deg)}}
   @media (prefers-reduced-motion: reduce){.meme .mm{animation:none}}
+  .meme svg.sc{position:relative;inset:auto;width:100%;height:auto;max-height:200px;opacity:1;margin:8px 0;filter:drop-shadow(0 3px 0 #0006)}
   .meme .tag{position:absolute;top:8px;right:8px;font-family:var(--body);font-size:11px;background:#000a;color:#c6f68d;padding:3px 7px;border-radius:999px}
   body.serio .meme, body.serio .fun{display:none}
   /* Ticker grid */
@@ -77,8 +78,8 @@
   .stock{background:var(--card);border:1px solid var(--line);border-radius:16px;margin:8px 0;overflow:hidden}
   .stock button.head{all:unset;display:flex;width:100%;box-sizing:border-box;align-items:center;gap:10px;padding:12px 14px;cursor:pointer}
   .stock .nm{flex:1;min-width:0}
-  .stock .nm b{display:block;font-size:16px}
-  .stock .nm span{font-size:13px;color:var(--muted)}
+  .stock .nm b{display:inline;font-size:16px}
+  .stock .nm span{display:block;font-size:13px;color:var(--muted)}
   .verd{font-family:var(--meme);font-weight:400;font-size:13px;letter-spacing:.5px;text-transform:uppercase;padding:5px 9px;border-radius:8px;white-space:nowrap}
   .v-in{background:var(--in-bg);color:var(--green);border:1px solid var(--green)}
   .v-wait{background:var(--wait-bg);color:var(--amber);border:1px solid var(--amber)}
@@ -103,6 +104,23 @@
   .ev .t span{font-size:14px;color:var(--muted)}
   .cd{display:inline-block;margin-top:4px;font-size:12px;padding:2px 8px;border-radius:999px;background:var(--soft);color:var(--lime2)}
   .hot .d{background:var(--wait-bg)}
+  .week{padding:6px 14px}
+  .eday{padding:8px 0;border-bottom:1px solid var(--line)}
+  .eday:last-child{border-bottom:0}
+  .eday.past{opacity:.55}
+  .dh{font-family:var(--meme);text-transform:uppercase;font-size:17px;letter-spacing:.4px;margin:2px 0 6px}
+  .dh i{font-style:normal;font-family:var(--body);font-size:11px;padding:2px 8px;border-radius:999px;background:var(--soft);color:var(--lime2);vertical-align:middle;margin-left:4px}
+  .er{display:flex;align-items:center;gap:8px;padding:6px 0}
+  .er .fl{font-size:20px;line-height:1;flex:0 0 auto}
+  .er .cc{flex:0 0 auto;font-size:11px;font-weight:700;letter-spacing:.5px;padding:2px 6px;border-radius:6px;background:var(--card2);color:var(--muted)}
+  .er .en{flex:1;min-width:0}
+  .er .en b{display:block;font-size:15px}
+  .er .en span{display:block;font-size:12px;color:var(--muted)}
+  .er .hr{flex:0 0 auto;font-size:13px;font-weight:700;color:var(--lime2);text-align:right;max-width:38%}
+  .er.hot .en b::after{content:' 🔥'}
+  .rz{display:inline-block;font-style:normal;font-size:11px;font-weight:600;padding:1px 7px;margin:0 0 2px 6px;border-radius:999px;background:var(--soft);color:var(--rz,#7cc7ff);vertical-align:middle}
+  @media (prefers-color-scheme: light){ :root:not([data-theme=dark]) .rz{--rz:#1f6fb2} }
+  :root[data-theme=light] .rz{--rz:#1f6fb2}
   /* Funds */
   table{width:100%;border-collapse:collapse;font-size:14px}
   td,th{padding:8px 6px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}

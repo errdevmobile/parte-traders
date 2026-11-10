@@ -13,10 +13,24 @@ Uso: python3 build_parte.py data.json salida.html
 - Las fuentes van incrustadas (no necesita internet).
 """
 import base64, html, json, os, re, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from scenes import pick, scene_svg, SCENES
 from datetime import date
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 E = lambda s: html.escape(str(s), quote=True)
+DIAS = ['Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sáb', 'Dom']
+PAISES = {'ES': 'España', 'US': 'EE. UU.', 'DE': 'Alemania', 'FR': 'Francia', 'GB': 'Reino Unido', 'IT': 'Italia',
+          'NL': 'Países Bajos', 'CH': 'Suiza', 'JP': 'Japón', 'CN': 'China', 'HK': 'Hong Kong', 'KR': 'Corea del Sur',
+          'TW': 'Taiwán', 'BR': 'Brasil', 'CA': 'Canadá', 'MX': 'México', 'DK': 'Dinamarca', 'SE': 'Suecia',
+          'BE': 'Bélgica', 'PT': 'Portugal', 'IE': 'Irlanda', 'IN': 'India', 'AU': 'Australia', 'NO': 'Noruega', 'FI': 'Finlandia'}
+
+
+def flag(cc):
+    cc = str(cc).upper()
+    return ''.join(chr(0x1F1E6 + ord(c) - 65) for c in cc) if len(cc) == 2 and cc.isalpha() else '🏳️'
+
+
 MESES = ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic']
 
 
@@ -58,26 +72,14 @@ def velito(mood):
     return s + '</svg>'
 
 
-def candles():
-    s = '<svg viewBox="0 0 300 120" preserveAspectRatio="none" aria-hidden="true">'
-    x, y, pts = 8, 80, []
-    ups = [1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 1, 1]
-    for i, up in enumerate(ups):
-        h = 10 + ((i * 37) % 22)
-        top = y - h if up else y
-        col = '#3ddc84' if up else '#ff6b6b'
-        s += f'<line x1="{x+6}" x2="{x+6}" y1="{top-8}" y2="{top+h+8}" stroke="{col}" stroke-width="2"/>'
-        s += f'<rect x="{x}" y="{top}" width="12" height="{h}" fill="{col}" rx="2"/>'
-        pts.append(f'{x+6},{top if up else top+h}')
-        y = y - 6 + ((i % 3) * 3) if up else y + 7
-        x += 21
-    return s + f'<polyline points="{" ".join(pts)}" fill="none" stroke="#c6f68d" stroke-width="2" stroke-dasharray="4 4"/></svg>'
-
-
-def meme(m, mood, cls=''):
-    return (f'<div class="meme {cls}">{candles()}<span class="tag">{E(m.get("tag",""))}</span>'
-            f'<div class="cap">{E(m["top"])}</div><div class="mm">{velito(m.get("mood", mood))}</div>'
-            f'<div class="cap">{E(m["bottom"])}</div></div>')
+def meme(m, mood, cls='', seed='', avoid=None, day=None):
+    """Meme con una escena original elegida al azar según el tono (o la fijada en "scene")."""
+    md = m.get('mood', mood)
+    name = m.get('scene') if m.get('scene') in SCENES else pick(md, seed, avoid, day)
+    html_ = (f'<div class="meme {cls}" data-scene="{name}"><span class="tag">{E(m.get("tag",""))}</span>'
+             f'<div class="cap">{E(m["top"])}</div>{scene_svg(name)}'
+             f'<div class="cap">{E(m["bottom"])}</div></div>')
+    return html_, name
 
 
 V = {'in': ('ENTRAR', 'v-in', 'up'), 'wait': ('ESPERAR', 'v-wait', ''), 'no': ('NO ENTRAR', 'v-no', 'down')}
@@ -99,6 +101,13 @@ def build(D):
   .stock .chev{display:none} html.js .stock .chev{display:inline}
 """
     mood = D['mood']['light']
+    seed = f"{D.get('title','parte')}|{D.get('edition','')}"
+    try:
+        day = date.fromisoformat(D.get('editionDate', ''))
+    except ValueError:
+        day = None
+    m1, n1 = meme(D['meme'], mood, '', seed + '|1', day=day)
+    m2, _ = meme(D['meme2'], mood, 'fun', seed + '|2', avoid=n1, day=day)
     out = []
     out.append(f'''<!DOCTYPE html>
 <html lang="es">
@@ -134,7 +143,7 @@ def build(D):
     out.append(f'''
   <section id="hoy" class="on">
     <div class="card mood"><div class="mascot">{velito(mood)}</div><div><b>{E(D["mood"]["title"])}</b><p>{E(D["mood"]["text"])}</p></div></div>
-    {meme(D["meme"], mood)}
+    {m1}
     <h2>El mercado ayer</h2>
     <div class="grid">{ticks}</div>
     <div class="note">{E(D.get("ticksNote",""))}</div>
@@ -150,7 +159,7 @@ def build(D):
         v15, v1m = V[s['v15']], V[s['v1m']]
         price = f'{E(s["p"])} · ' if s.get('p') and s['p'] != '—' else ''
         stocks += (f'<div class="stock" data-m="{E(s["m"])}" data-v="{E(s["v15"])}"><button class="head" aria-expanded="false">'
-                   f'<div class="nm"><b>{E(s["n"])}</b><span>{price}{E(s["ev"])}</span></div>'
+                   f'<div class="nm"><b>{E(s["n"])}</b>{f'<em class="rz">{E(s["tag"])}</em>' if s.get("tag") else ''}<span>{price}{E(s["ev"])}</span></div>'
                    f'<span class="verd {v15[1]}">{v15[0]}</span><span class="chev">›</span></button>'
                    f'<div class="body"><p class="why">{E(s["why"])}</p><div class="row2">'
                    f'<div class="kv"><small>A 15 días</small><span class="{v15[2]}">{v15[0]}</span></div>'
@@ -164,7 +173,7 @@ def build(D):
     <h2>Radar de valores</h2>
     <div class="chips" id="filters">{chips}</div>
     <div id="stocks">{stocks}</div>
-    <div class="note">Veredicto a 15 días / a 1 mes y nivel clave de cada valor.</div>
+    <div class="note">{E(D.get("stocksNote","Veredicto a 15 días / a 1 mes y nivel clave de cada valor."))}</div>
   </section>
 ''')
     # AGENDA
@@ -176,9 +185,32 @@ def build(D):
         cd = 'HOY' if n == 0 else ('MAÑANA' if n == 1 else (f'en {n} días' if n > 1 else 'pasado'))
         evs += (f'<div class="ev{" hot" if e.get("hot") else ""}"><div class="d"><b>{d.day}</b><span>{MESES[d.month-1]}</span></div>'
                 f'<div class="t"><b>{E(e["t"])}</b><span>{E(e["s"])}</span><br><span class="cd">{cd}</span></div></div>')
+    # Resultados de la semana (opcional: "earnings")
+    week = ''
+    if D.get('earnings'):
+        byday = {}
+        for x in D['earnings']:
+            byday.setdefault(x['d'], []).append(x)
+        for k in sorted(byday):
+            d = date.fromisoformat(k)
+            n = (d - base).days
+            st = 'HOY' if n == 0 else ('MAÑANA' if n == 1 else ('ya publicado' if n < 0 else ''))
+            rows = ''
+            for x in byday[k]:
+                cc = str(x.get('c', '')).upper()
+                sub = f'<span>{E(x["s"])}</span>' if x.get('s') else ''
+                rows += (f'<div class="er{" hot" if x.get("hot") else ""}"><span class="fl" title="{E(PAISES.get(cc, cc))}">{flag(cc)}</span>'
+                         f'<span class="cc">{E(cc)}</span><div class="en"><b>{E(x["n"])}</b>'
+                         f'{sub}</div><span class="hr">{E(x.get("h", "sin hora"))}</span></div>')
+            week += (f'<div class="eday{" past" if n < 0 else ""}"><div class="dh">{DIAS[d.weekday()]} {d.day} {MESES[d.month-1]}'
+                     f'{f" <i>{st}</i>" if st else ""}</div>{rows}</div>')
+        week = f'''
+    <h2>Resultados de esta semana</h2>
+    <div class="card week">{week}</div>
+    <div class="note">{E(D.get("earningsNote", "Hora de España. Bandera y siglas: país de la sede de la empresa."))}</div>'''
     out.append(f'''
-  <section id="agenda">
-    <h2>Agenda bursátil</h2>
+  <section id="agenda">{week}
+    <h2>{"Agenda a 15 días y 1 mes" if D.get("earnings") else "Agenda bursátil"}</h2>
     <div class="card">{evs}</div>
   </section>
 ''')
@@ -191,7 +223,7 @@ def build(D):
     <h2>Rincón del indexado</h2>
     <div class="card"><p style="margin:0 0 6px"><b>Reparto orientativo</b> para quien empieza o aporta ahora:</p>{plan}</div>
     <div class="card"><table><thead><tr><th>Fondo</th><th>TER</th><th>Para</th></tr></thead><tbody>{funds}</tbody></table></div>
-    {meme(D["meme2"], mood, "fun")}
+    {m2}
   </section>
 
   <footer>

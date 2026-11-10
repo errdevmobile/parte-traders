@@ -1,283 +1,458 @@
 {
-  "edition": "Miércoles 11 nov 2026 · 7:00",
-  "editionDate": "2026-11-11",
-  "draft": "PRUEBA · datos del 9 y 10 de noviembre. Desde mañana llega cada día laborable a las 7:00.",
-  "mood": {
-    "light": "a",
-    "title": "Prudencia, que hay curvas",
-    "text": "El IBEX ha tocado los 20.000, pero la inflación de EE. UU. salió caliente y hoy hay huelga general. Día de mirar más que de comprar."
+ "edition": "Martes 10 nov 2026 · 7:00",
+ "editionDate": "2026-11-10",
+ "draft": "VISTA PREVIA del nuevo formato: resultados de la semana (pestaña Agenda), radar que rota cada día y memes nuevos. El primer parte real llega mañana a las 7:00.",
+ "mood": {
+  "light": "a",
+  "title": "Prudencia, que hay curvas",
+  "text": "El IBEX ha tocado los 20.000, pero la inflación de EE. UU. salió caliente y hoy hay huelga general. Día de mirar más que de comprar."
+ },
+ "meme": {
+  "top": "Yo esperando un IPC de 0,3%",
+  "bottom": "El IPC: 0,4% y una subida de tipos de regalo",
+  "tag": "meme del día",
+  "mood": "r"
+ },
+ "meme2": {
+  "top": "Comprar todo el dinero de golpe",
+  "bottom": "Aportar en 3 veces y dormir tranquilo",
+  "tag": "sabiduría ancestral",
+  "mood": "g"
+ },
+ "ticks": [
+  {
+   "n": "IBEX 35",
+   "v": "≈20.000",
+   "c": 1.3
   },
-  "meme": {
-    "top": "Yo esperando un IPC de 0,3%",
-    "bottom": "El IPC: 0,4% y una subida de tipos de regalo",
-    "tag": "meme del día",
-    "mood": "r"
+  {
+   "n": "S&P 500",
+   "v": "7.549,94",
+   "c": 2.35
   },
-  "meme2": {
-    "top": "Comprar todo el dinero de golpe",
-    "bottom": "Aportar en 3 veces y dormir tranquilo",
-    "tag": "sabiduría ancestral",
-    "mood": "g"
+  {
+   "n": "Nasdaq",
+   "v": "25.253,14",
+   "c": 2.74
   },
-  "ticks": [
-    {
-      "n": "IBEX 35",
-      "v": "≈20.000",
-      "c": 1.3
-    },
-    {
-      "n": "S&P 500",
-      "v": "7.549,94",
-      "c": 2.35
-    },
-    {
-      "n": "Nasdaq",
-      "v": "25.253,14",
-      "c": 2.74
-    },
-    {
-      "n": "Dow Jones",
-      "v": "52.389,75",
-      "c": 2.15
-    },
-    {
-      "n": "DAX",
-      "v": "26.572",
-      "c": 1.16
-    },
-    {
-      "n": "Brent",
-      "v": "≈90 $",
-      "c": -1.5
-    },
-    {
-      "n": "Oro",
-      "v": "≈4.050 $",
-      "c": -2.2
-    },
-    {
-      "n": "EUR/USD",
-      "v": "1,118",
-      "c": -0.39
-    }
-  ],
-  "ticksNote": "En la versión diaria aquí irán los cierres oficiales del día anterior, Asia de madrugada y los futuros.",
-  "today": [
-    "<b>Huelga general en España.</b> Puede haber poco volumen en el IBEX.",
-    "<b>Inflación de EE. UU. caliente:</b> +0,4% mensual (se esperaba 0,3%). La Fed casi seguro sube tipos el 9 de diciembre.",
-    "<b>Mañana jueves:</b> Telefónica y ACS antes de abrir; Cisco y Applied Materials tras el cierre de Wall Street.",
-    "<b>Nvidia</b> sigue en el centro del drama: investigación del consejo a su CEO y resultados el 17 de noviembre."
-  ],
-  "quote": "El mercado puede seguir irracional más tiempo del que tú puedes seguir con la cartera en rojo.",
-  "stocks": [
-    {
-      "n": "Santander",
-      "m": "es",
-      "p": "~11,1 €",
-      "v15": "in",
-      "v1m": "in",
-      "why": "Beneficio ordinario récord (11.176 M€ en 9 meses) y recompra en marcha. KBW lo ve como el banco del IBEX con más potencial: 13,80 € (+25%).",
-      "lvl": "Salir si cierra < 10,40 €",
-      "ev": "Elecciones 29 nov",
-      "quip": "El banco que no necesita café para despertarse."
-    },
-    {
-      "n": "Inditex",
-      "m": "es",
-      "p": "60,38 €",
-      "v15": "wait",
-      "v1m": "in",
-      "why": "En máximos históricos y ya en el precio objetivo medio (~60,8 €). Mejor comprar tras los resultados del 2 de diciembre o en un retroceso a 57-58 €.",
-      "lvl": "Zona de compra 57-58 €",
-      "ev": "Resultados 2 dic",
-      "quip": "Zara a la moda, tu entrada todavía no."
-    },
-    {
-      "n": "Cellnex",
-      "m": "es",
-      "p": "26,75 €",
-      "v15": "wait",
-      "v1m": "in",
-      "why": "Renta 4 le ve un 60% de potencial (43,30 €), pero ya rebotó un 23% en un mes y odia las subidas de tipos.",
-      "lvl": "Primera compra pequeña en 24-25 €",
-      "ev": "BCE 17 dic",
-      "quip": "Muchas antenas, poca paciencia."
-    },
-    {
-      "n": "Telefónica",
-      "m": "es",
-      "p": "~3,35 €",
-      "v15": "no",
-      "v1m": "wait",
-      "why": "Presenta resultados mañana (consenso: 538 M€ en el 3T). Desde 2027 el dividendo dependerá del flujo de caja.",
-      "lvl": "Rango 52 semanas 3,21-4,63 €",
-      "ev": "Resultados 12 nov",
-      "quip": "No contestes a esta llamada todavía."
-    },
-    {
-      "n": "ACS",
-      "m": "es",
-      "p": "89,65 €",
-      "v15": "wait",
-      "v1m": "in",
-      "why": "Cae ~35% desde mayo por dudas en centros de datos. El 12 de noviembre presenta resultados y su Capital Markets Day: día binario.",
-      "lvl": "Entrar solo si el CMD convence",
-      "ev": "Resultados 12 nov",
-      "quip": "Florentino, sorpréndenos."
-    },
-    {
-      "n": "Nvidia",
-      "m": "us",
-      "p": "178,67 $",
-      "v15": "no",
-      "v1m": "wait",
-      "why": "-23% en 30 días, investigación del consejo a su CEO y resultados el 17 nov. Demasiadas incógnitas a la vez.",
-      "lvl": "Soporte a vigilar: 160 $",
-      "ev": "Resultados 17 nov",
-      "quip": "Esta película mejor verla desde el sofá."
-    },
-    {
-      "n": "Applied Materials",
-      "m": "us",
-      "p": "370,55 $",
-      "v15": "wait",
-      "v1m": "in",
-      "why": "Consenso: BPA 4,06 $ e ingresos 10.300 M$. Ojo: en 6 de los últimos 8 trimestres bajó al día siguiente de publicar.",
-      "lvl": "Compra si cierra > 410,79 $",
-      "ev": "Resultados 12 nov",
-      "quip": "Fabrica las máquinas que fabrican los chips. Meta."
-    },
-    {
-      "n": "Cisco",
-      "m": "us",
-      "p": "98,65 $",
-      "v15": "wait",
-      "v1m": "in",
-      "why": "Esperado BPA ~1,33 $ con 18.100 M$ de ingresos. Las opciones descuentan ±8%. Precio objetivo medio: 135,56 $.",
-      "lvl": "Aguantar 91,74 $ o romper 101,60 $",
-      "ev": "Resultados 12 nov",
-      "quip": "El router de tu casa también cotiza."
-    },
-    {
-      "n": "Home Depot",
-      "m": "us",
-      "p": "—",
-      "v15": "wait",
-      "v1m": "in",
-      "why": "Ya subió un 18% en un mes y los tipos al alza frenan la vivienda. Dividendo ~3% y PER ~21.",
-      "lvl": "Entrada parcial tras resultados",
-      "ev": "Resultados 17 nov",
-      "quip": "Bricolaje sí, bricolaje bursátil no."
-    }
-  ],
-  "events": [
-    {
-      "d": "2026-11-11",
-      "t": "Huelga general en España",
-      "s": "Volumen y tono del IBEX"
-    },
-    {
-      "d": "2026-11-12",
-      "t": "Telefónica, ACS, Acciona · Cisco y Applied Materials",
-      "s": "España antes de abrir; EE. UU. tras el cierre",
-      "hot": true
-    },
-    {
-      "d": "2026-11-13",
-      "t": "Merlin Properties · IPP EE. UU. 14:30",
-      "s": "Inflación mayorista"
-    },
-    {
-      "d": "2026-11-17",
-      "t": "Nvidia, Home Depot, Disney",
-      "s": "Nvidia tras el cierre: el evento del mes",
-      "hot": true
-    },
-    {
-      "d": "2026-11-19",
-      "t": "Walmart · Intuit",
-      "s": "Consumo en EE. UU."
-    },
-    {
-      "d": "2026-11-25",
-      "t": "PCE de EE. UU.",
-      "s": "La inflación favorita de la Fed"
-    },
-    {
-      "d": "2026-11-29",
-      "t": "Elecciones generales en España",
-      "s": "Atentos al lunes 30",
-      "hot": true
-    },
-    {
-      "d": "2026-12-02",
-      "t": "Inditex: resultados de 9 meses",
-      "s": "Ventas del inicio del 4T"
-    },
-    {
-      "d": "2026-12-09",
-      "t": "Fed: decisión de tipos",
-      "s": "¿Sube 0,25 o 0,50?",
-      "hot": true
-    },
-    {
-      "d": "2026-12-17",
-      "t": "BCE: decisión de tipos",
-      "s": "Posible subida a 2,75%"
-    }
-  ],
-  "fundPlan": [
-    {
-      "b": "MSCI World (fondo)",
-      "w": 60,
-      "t": "Aportación 1 de 3 antes del 14 nov; la 2 del 23 al 27 nov; la 3 del 1 al 11 dic."
-    },
-    {
-      "b": "Europa",
-      "w": 15,
-      "t": "La rotación hacia value y un BCE subiendo tipos le sientan bien."
-    },
-    {
-      "b": "Emergentes",
-      "w": 10,
-      "t": "Esperar; entrar si el dólar sigue débil."
-    },
-    {
-      "b": "Liquidez / monetario",
-      "w": 15,
-      "t": "Munición para comprar si hay sustos tras el 29 nov."
-    }
-  ],
-  "funds": [
-    {
-      "n": "Fidelity MSCI World Index",
-      "isin": "IE00BYX5NX33",
-      "ter": "0,12%",
-      "u": "Núcleo"
-    },
-    {
-      "n": "iShares Developed World Index",
-      "isin": "IE00BD0NCM55",
-      "ter": "0,12%",
-      "u": "Alternativa"
-    },
-    {
-      "n": "Vanguard Global Stock Index",
-      "isin": "IE00B03HCZ61",
-      "ter": "0,18%",
-      "u": "Núcleo (MyInvestor)"
-    },
-    {
-      "n": "Vanguard U.S. 500 Stock Index",
-      "isin": "IE0032620787",
-      "ter": "0,10%",
-      "u": "Solo EE. UU."
-    },
-    {
-      "n": "Vanguard Emerging Markets",
-      "isin": "IE0031786142",
-      "ter": "0,23%",
-      "u": "Satélite"
-    }
-  ]
+  {
+   "n": "Dow Jones",
+   "v": "52.389,75",
+   "c": 2.15
+  },
+  {
+   "n": "DAX",
+   "v": "26.572",
+   "c": 1.16
+  },
+  {
+   "n": "Brent",
+   "v": "≈90 $",
+   "c": -1.5
+  },
+  {
+   "n": "Oro",
+   "v": "≈4.050 $",
+   "c": -2.2
+  },
+  {
+   "n": "EUR/USD",
+   "v": "1,118",
+   "c": -0.39
+  }
+ ],
+ "ticksNote": "En la versión diaria aquí irán los cierres oficiales del día anterior, Asia de madrugada y los futuros.",
+ "today": [
+  "<b>Huelga general en España.</b> Puede haber poco volumen en el IBEX.",
+  "<b>Inflación de EE. UU. caliente:</b> +0,4% mensual (se esperaba 0,3%). La Fed casi seguro sube tipos el 9 de diciembre.",
+  "<b>Mañana jueves:</b> Telefónica y ACS antes de abrir; Cisco y Applied Materials tras el cierre de Wall Street.",
+  "<b>Nvidia</b> sigue en el centro del drama: investigación del consejo a su CEO y resultados el 17 de noviembre."
+ ],
+ "quote": "El mercado puede seguir irracional más tiempo del que tú puedes seguir con la cartera en rojo.",
+ "stocks": [
+  {
+   "n": "Santander",
+   "m": "es",
+   "p": "~11,1 €",
+   "v15": "in",
+   "v1m": "in",
+   "why": "Beneficio ordinario récord (11.176 M€ en 9 meses) y recompra en marcha. KBW lo ve como el banco del IBEX con más potencial: 13,80 € (+25%).",
+   "lvl": "Salir si cierra < 10,40 €",
+   "ev": "Elecciones 29 nov",
+   "quip": "El banco que no necesita café para despertarse.",
+   "tag": "Sigue fuerte"
+  },
+  {
+   "n": "Inditex",
+   "m": "es",
+   "p": "60,38 €",
+   "v15": "wait",
+   "v1m": "in",
+   "why": "En máximos históricos y ya en el precio objetivo medio (~60,8 €). Mejor comprar tras los resultados del 2 de diciembre o en un retroceso a 57-58 €.",
+   "lvl": "Zona de compra 57-58 €",
+   "ev": "Resultados 2 dic",
+   "quip": "Zara a la moda, tu entrada todavía no.",
+   "tag": "Resultados 2 dic"
+  },
+  {
+   "n": "Cellnex",
+   "m": "es",
+   "p": "26,75 €",
+   "v15": "wait",
+   "v1m": "in",
+   "why": "Renta 4 le ve un 60% de potencial (43,30 €), pero ya rebotó un 23% en un mes y odia las subidas de tipos.",
+   "lvl": "Primera compra pequeña en 24-25 €",
+   "ev": "BCE 17 dic",
+   "quip": "Muchas antenas, poca paciencia.",
+   "tag": "Tipos y rebote"
+  },
+  {
+   "n": "Telefónica",
+   "m": "es",
+   "p": "~3,35 €",
+   "v15": "no",
+   "v1m": "wait",
+   "why": "Presenta resultados mañana (consenso: 538 M€ en el 3T). Desde 2027 el dividendo dependerá del flujo de caja.",
+   "lvl": "Rango 52 semanas 3,21-4,63 €",
+   "ev": "Resultados 12 nov",
+   "quip": "No contestes a esta llamada todavía.",
+   "tag": "Resultados jue"
+  },
+  {
+   "n": "ACS",
+   "m": "es",
+   "p": "89,65 €",
+   "v15": "wait",
+   "v1m": "in",
+   "why": "Cae ~35% desde mayo por dudas en centros de datos. El 12 de noviembre presenta resultados y su Capital Markets Day: día binario.",
+   "lvl": "Entrar solo si el CMD convence",
+   "ev": "Resultados 11 nov · CMD 12 nov",
+   "quip": "Florentino, sorpréndenos.",
+   "tag": "Resultados mié"
+  },
+  {
+   "n": "Nvidia",
+   "m": "us",
+   "p": "178,67 $",
+   "v15": "no",
+   "v1m": "wait",
+   "why": "-23% en 30 días, investigación del consejo a su CEO y resultados el 17 nov. Demasiadas incógnitas a la vez.",
+   "lvl": "Soporte a vigilar: 160 $",
+   "ev": "Resultados 17 nov",
+   "quip": "Esta película mejor verla desde el sofá.",
+   "tag": "Resultados 17 nov"
+  },
+  {
+   "n": "Applied Materials",
+   "m": "us",
+   "p": "370,55 $",
+   "v15": "wait",
+   "v1m": "in",
+   "why": "Consenso: BPA 4,06 $ e ingresos 10.300 M$. Ojo: en 6 de los últimos 8 trimestres bajó al día siguiente de publicar.",
+   "lvl": "Compra si cierra > 410,79 $",
+   "ev": "Resultados 12 nov",
+   "quip": "Fabrica las máquinas que fabrican los chips. Meta.",
+   "tag": "Resultados jue"
+  },
+  {
+   "n": "Cisco",
+   "m": "us",
+   "p": "98,65 $",
+   "v15": "wait",
+   "v1m": "in",
+   "why": "Esperado BPA ~1,33 $ con 18.100 M$ de ingresos. Las opciones descuentan ±8%. Precio objetivo medio: 135,56 $.",
+   "lvl": "Aguantar 91,74 $ o romper 101,60 $",
+   "ev": "Resultados 12 nov",
+   "quip": "El router de tu casa también cotiza.",
+   "tag": "Resultados jue"
+  },
+  {
+   "n": "Home Depot",
+   "m": "us",
+   "p": "—",
+   "v15": "wait",
+   "v1m": "in",
+   "why": "Ya subió un 18% en un mes y los tipos al alza frenan la vivienda. Dividendo ~3% y PER ~21.",
+   "lvl": "Entrada parcial tras resultados",
+   "ev": "Resultados 17 nov",
+   "quip": "Bricolaje sí, bricolaje bursátil no.",
+   "tag": "Resultados 17 nov"
+  }
+ ],
+ "events": [
+  {
+   "d": "2026-11-11",
+   "t": "Huelga general en España",
+   "s": "Volumen y tono del IBEX"
+  },
+  {
+   "d": "2026-11-13",
+   "t": "IPP de EE. UU. 14:30",
+   "s": "Inflación mayorista"
+  },
+  {
+   "d": "2026-11-17",
+   "t": "Nvidia, Home Depot, Disney",
+   "s": "Nvidia tras el cierre: el evento del mes",
+   "hot": true
+  },
+  {
+   "d": "2026-11-19",
+   "t": "Walmart · Intuit",
+   "s": "Consumo en EE. UU."
+  },
+  {
+   "d": "2026-11-25",
+   "t": "PCE de EE. UU.",
+   "s": "La inflación favorita de la Fed"
+  },
+  {
+   "d": "2026-11-29",
+   "t": "Elecciones generales en España",
+   "s": "Atentos al lunes 30",
+   "hot": true
+  },
+  {
+   "d": "2026-12-02",
+   "t": "Inditex: resultados de 9 meses",
+   "s": "Ventas del inicio del 4T"
+  },
+  {
+   "d": "2026-12-09",
+   "t": "Fed: decisión de tipos",
+   "s": "¿Sube 0,25 o 0,50?",
+   "hot": true
+  },
+  {
+   "d": "2026-12-17",
+   "t": "BCE: decisión de tipos",
+   "s": "Posible subida a 2,75%"
+  }
+ ],
+ "fundPlan": [
+  {
+   "b": "MSCI World (fondo)",
+   "w": 60,
+   "t": "Aportación 1 de 3 antes del 14 nov; la 2 del 23 al 27 nov; la 3 del 1 al 11 dic."
+  },
+  {
+   "b": "Europa",
+   "w": 15,
+   "t": "La rotación hacia value y un BCE subiendo tipos le sientan bien."
+  },
+  {
+   "b": "Emergentes",
+   "w": 10,
+   "t": "Esperar; entrar si el dólar sigue débil."
+  },
+  {
+   "b": "Liquidez / monetario",
+   "w": 15,
+   "t": "Munición para comprar si hay sustos tras el 29 nov."
+  }
+ ],
+ "funds": [
+  {
+   "n": "Fidelity MSCI World Index",
+   "isin": "IE00BYX5NX33",
+   "ter": "0,12%",
+   "u": "Núcleo"
+  },
+  {
+   "n": "iShares Developed World Index",
+   "isin": "IE00BD0NCM55",
+   "ter": "0,12%",
+   "u": "Alternativa"
+  },
+  {
+   "n": "Vanguard Global Stock Index",
+   "isin": "IE00B03HCZ61",
+   "ter": "0,18%",
+   "u": "Núcleo (MyInvestor)"
+  },
+  {
+   "n": "Vanguard U.S. 500 Stock Index",
+   "isin": "IE0032620787",
+   "ter": "0,10%",
+   "u": "Solo EE. UU."
+  },
+  {
+   "n": "Vanguard Emerging Markets",
+   "isin": "IE0031786142",
+   "ter": "0,23%",
+   "u": "Satélite"
+  }
+ ],
+ "earnings": [
+  {
+   "d": "2026-11-09",
+   "h": "antes de abrir",
+   "n": "Constellation Energy",
+   "c": "US",
+   "s": "Eléctrica · energía para centros de datos",
+   "hot": false
+  },
+  {
+   "d": "2026-11-09",
+   "h": "antes de abrir",
+   "n": "UniCredit",
+   "c": "IT",
+   "s": "Banca",
+   "hot": false
+  },
+  {
+   "d": "2026-11-09",
+   "h": "≈22:00",
+   "n": "Take-Two",
+   "c": "US",
+   "s": "Videojuegos · tras el cierre",
+   "hot": false
+  },
+  {
+   "d": "2026-11-10",
+   "h": "≈8:00",
+   "n": "Vodafone",
+   "c": "GB",
+   "s": "Telecos · semestrales",
+   "hot": false
+  },
+  {
+   "d": "2026-11-10",
+   "h": "antes de abrir",
+   "n": "Infineon",
+   "c": "DE",
+   "s": "Chips",
+   "hot": false
+  },
+  {
+   "d": "2026-11-10",
+   "h": "≈22:00",
+   "n": "CoreWeave",
+   "c": "US",
+   "s": "Nube para IA · tras el cierre",
+   "hot": false
+  },
+  {
+   "d": "2026-11-10",
+   "h": "≈22:00",
+   "n": "Petrobras",
+   "c": "BR",
+   "s": "Petróleo · tras el cierre",
+   "hot": false
+  },
+  {
+   "d": "2026-11-11",
+   "h": "sin hora",
+   "n": "ACS",
+   "c": "ES",
+   "s": "9 meses · presentación jue 9:30 y Capital Markets Day 11:00",
+   "hot": true
+  },
+  {
+   "d": "2026-11-11",
+   "h": "≈7:00",
+   "n": "Siemens Energy",
+   "c": "DE",
+   "s": "Cierre de su año fiscal",
+   "hot": false
+  },
+  {
+   "d": "2026-11-11",
+   "h": "antes de abrir",
+   "n": "RWE",
+   "c": "DE",
+   "s": "Eléctrica",
+   "hot": false
+  },
+  {
+   "d": "2026-11-12",
+   "h": "7:30",
+   "n": "Telefónica",
+   "c": "ES",
+   "s": "9 meses · conferencia 10:00",
+   "hot": true
+  },
+  {
+   "d": "2026-11-12",
+   "h": "antes de abrir",
+   "n": "Acciona y Acciona Energía",
+   "c": "ES",
+   "s": "Infraestructuras y renovables",
+   "hot": false
+  },
+  {
+   "d": "2026-11-12",
+   "h": "sin hora",
+   "n": "Colonial",
+   "c": "ES",
+   "s": "Inmobiliaria (socimi)",
+   "hot": false
+  },
+  {
+   "d": "2026-11-12",
+   "h": "7:00",
+   "n": "Siemens",
+   "c": "DE",
+   "s": "Cierre de su año fiscal · rueda de prensa 8:00",
+   "hot": false
+  },
+  {
+   "d": "2026-11-12",
+   "h": "≈7:00",
+   "n": "Allianz",
+   "c": "DE",
+   "s": "Seguros",
+   "hot": false
+  },
+  {
+   "d": "2026-11-12",
+   "h": "≈22:00",
+   "n": "Cisco",
+   "c": "US",
+   "s": "Redes para IA · tras el cierre",
+   "hot": true
+  },
+  {
+   "d": "2026-11-12",
+   "h": "≈22:00",
+   "n": "Applied Materials",
+   "c": "US",
+   "s": "Maquinaria de chips · tras el cierre",
+   "hot": true
+  },
+  {
+   "d": "2026-11-13",
+   "h": "antes de abrir",
+   "n": "Merlin Properties",
+   "c": "ES",
+   "s": "Inmobiliaria (socimi)",
+   "hot": false
+  },
+  {
+   "d": "2026-11-13",
+   "h": "≈7:00",
+   "n": "Richemont",
+   "c": "CH",
+   "s": "Lujo · semestrales",
+   "hot": false
+  },
+  {
+   "d": "2026-11-13",
+   "h": "sin hora",
+   "n": "Generali",
+   "c": "IT",
+   "s": "Seguros",
+   "hot": false
+  },
+  {
+   "d": "2026-11-13",
+   "h": "sin hora",
+   "n": "Mitsubishi UFJ",
+   "c": "JP",
+   "s": "Primer banco de Japón",
+   "hot": false
+  }
+ ],
+ "earningsNote": "Hora de España. «Antes de abrir» = antes de las 9:00 en Europa; en EE. UU., antes de las 15:30. «Tras el cierre» de Wall Street = desde las 22:00. Bandera y siglas: país de la sede.",
+ "stocksNote": "Selección del día: 4-5 de España y 4-5 de EE. UU. que rotan según resultados, noticias o movimientos fuertes. La etiqueta azul dice por qué está hoy en el radar."
 }
