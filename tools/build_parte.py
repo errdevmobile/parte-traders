@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Genera El Parte de las 7 como UN solo archivo HTML autocontenido.
+"""Genera El Parte de las 7 (o una alerta con el mismo diseño) como UN solo archivo HTML.
+
+Campos opcionales en data.json: "title" (por defecto "El Parte de las 7") y
+"subtitle" (por defecto "Para el grupo Traders").
 
 Uso: python3 build_parte.py data.json salida.html
 
@@ -103,7 +106,7 @@ def build(D):
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="dark light">
-<title>El Parte de las 7 · {E(D["edition"])}</title>
+<title>{E(D.get("title","El Parte de las 7"))} · {E(D["edition"])}</title>
 <style>
 {css}</style>
 </head>
@@ -111,7 +114,7 @@ def build(D):
 <div class="wrap">
   <header>
     <div class="brand">
-      <div class="logo">EL PARTE DE LAS 7<small>Para el grupo Traders · {E(D["edition"])}</small></div>
+      <div class="logo">{E(D.get("title","EL PARTE DE LAS 7").upper())}<small>{E(D.get("subtitle","Para el grupo Traders"))} · {E(D["edition"])}</small></div>
       <div class="tools">
         <button class="toggle" id="themeBtn" title="Tema">🌗 Auto</button>
         <button class="toggle" id="modeBtn" aria-pressed="false">Modo serio</button>
