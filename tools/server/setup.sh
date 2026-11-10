@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Instala en un servidor Ubuntu (por ejemplo Oracle Cloud Always Free) todo lo
+# Instala en un servidor Ubuntu (Google Cloud e2-micro gratuito, Oracle, etc.) todo lo
 # necesario para enviar «El Parte de las 7» al grupo de WhatsApp sin depender
 # de ningún ordenador personal.
 #
@@ -17,6 +17,14 @@ echo "==> 1/6 Paquetes del sistema y zona horaria"
 sudo apt-get update -y
 sudo apt-get install -y git make curl ca-certificates python3 tzdata
 sudo timedatectl set-timezone Europe/Madrid || true
+
+# Máquinas pequeñas (1 GB de RAM, como la gratuita de Google Cloud): añadir
+# 2 GB de memoria de intercambio para que la compilación no se quede sin memoria.
+if [ "$(awk '/MemTotal/ {print $2}' /proc/meminfo)" -lt 2000000 ] && ! swapon --show | grep -q /swapfile; then
+  echo "==> Memoria pequeña: creando 2 GB de swap"
+  sudo fallocate -l 2G /swapfile && sudo chmod 600 /swapfile && sudo mkswap /swapfile && sudo swapon /swapfile
+  grep -q '/swapfile' /etc/fstab || echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab >/dev/null
+fi
 
 echo "==> 2/6 Go (versión estable más reciente)"
 GOVER="$(curl -fsSL 'https://go.dev/VERSION?m=text' | head -1)"
