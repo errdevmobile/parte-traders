@@ -11,5 +11,7 @@ Campos opcionales de `data.json`:
 - `earnings`: resultados empresariales de la semana `[{"d","h","n","c","s","hot"}]` (`c` = país de la sede en ISO de 2 letras, se pinta con bandera; `h` = hora de España).
 - `earningsNote`, `stocksNote`: notas bajo cada bloque.
 - `stocks[].tag`: por qué está hoy el valor en el radar.
+- `stocks[].earn` (fecha de resultados de esta semana) y `stocks[].c` (país ISO): el valor sale en el grupo «Presentan resultados de … a viernes». `m` admite `es`, `us`, `eu` (resto de Europa) y `as` (Asia).
+- El generador avisa por stderr si falta en el radar alguna empresa de `earnings` que presenta entre hoy y el viernes.
 
 Contenido orientativo generado por una IA con datos públicos. No es asesoramiento financiero.

@@ -15,7 +15,7 @@ Uso: python3 build_parte.py data.json salida.html
 import base64, html, json, os, re, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from scenes import pick, scene_svg, SCENES
-from datetime import date
+from datetime import date, timedelta
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 E = lambda s: html.escape(str(s), quote=True)
@@ -154,20 +154,41 @@ def build(D):
   </section>
 ''')
     # VALORES
-    stocks = ''
-    for s in D['stocks']:
+    base_v = date.fromisoformat(D['editionDate'])
+    friday = base_v + timedelta(days=4 - base_v.weekday()) if base_v.weekday() < 5 else base_v
+    def card(s):
         v15, v1m = V[s['v15']], V[s['v1m']]
         price = f'{E(s["p"])} · ' if s.get('p') and s['p'] != '—' else ''
-        stocks += (f'<div class="stock" data-m="{E(s["m"])}" data-v="{E(s["v15"])}"><button class="head" aria-expanded="false">'
-                   f'<div class="nm"><b>{E(s["n"])}</b>{f'<em class="rz">{E(s["tag"])}</em>' if s.get("tag") else ''}<span>{price}{E(s["ev"])}</span></div>'
-                   f'<span class="verd {v15[1]}">{v15[0]}</span><span class="chev">›</span></button>'
-                   f'<div class="body"><p class="why">{E(s["why"])}</p><div class="row2">'
-                   f'<div class="kv"><small>A 15 días</small><span class="{v15[2]}">{v15[0]}</span></div>'
-                   f'<div class="kv"><small>A 1 mes</small><span class="{v1m[2]}">{v1m[0]}</span></div>'
-                   f'<div class="kv" style="grid-column:1/-1"><small>Nivel clave</small><span>{E(s["lvl"])}</span></div></div>'
-                   f'<p class="quip fun">{E(s["quip"])}</p></div></div>')
-    chips = ''.join(f'<button class="chip{" on" if k=="all" else ""}" data-f="{k}">{n}</button>' for k, n in
-                    [('all', 'Todos'), ('es', 'España'), ('us', 'EE. UU.'), ('in', 'Entrar ya'), ('wait', 'Esperar'), ('no', 'No entrar')])
+        cc = str(s.get('c') or {'es': 'ES', 'us': 'US'}.get(s['m'], '')).upper()
+        fl = f'<span class="sfl" title="{E(PAISES.get(cc, cc))}">{flag(cc)}</span>' if cc else ''
+        return (f'<div class="stock" data-m="{E(s["m"])}" data-v="{E(s["v15"])}" data-r="{1 if s.get("earn") else 0}"><button class="head" aria-expanded="false">'
+                f'<div class="nm">{fl}<b>{E(s["n"])}</b>{f'<em class="rz">{E(s["tag"])}</em>' if s.get("tag") else ''}<span>{price}{E(s["ev"])}</span></div>'
+                f'<span class="verd {v15[1]}">{v15[0]}</span><span class="chev">›</span></button>'
+                f'<div class="body"><p class="why">{E(s["why"])}</p><div class="row2">'
+                f'<div class="kv"><small>A 15 días</small><span class="{v15[2]}">{v15[0]}</span></div>'
+                f'<div class="kv"><small>A 1 mes</small><span class="{v1m[2]}">{v1m[0]}</span></div>'
+                f'<div class="kv" style="grid-column:1/-1"><small>Nivel clave</small><span>{E(s["lvl"])}</span></div></div>'
+                f'<p class="quip fun">{E(s["quip"])}</p></div></div>')
+    wk = sorted([s for s in D['stocks'] if s.get('earn')], key=lambda s: s['earn'])
+    rest = [s for s in D['stocks'] if not s.get('earn')]
+    stocks = ''
+    if wk:
+        stocks += f'<div class="grp">Presentan resultados de {["lunes","martes","miércoles","jueves","viernes"][base_v.weekday()]} a viernes</div>' if base_v < friday else '<div class="grp">Presentan resultados hoy</div>'
+        stocks += ''.join(card(s) for s in wk)
+        if rest:
+            stocks += '<div class="grp">Además en el radar</div>'
+    stocks += ''.join(card(s) for s in rest)
+    # Aviso si falta en el radar alguna empresa que presenta entre hoy y el viernes
+    names = {re.sub(r'\W', '', s['n'].lower()) for s in D['stocks']}
+    missing = [e['n'] for e in D.get('earnings', []) if base_v.isoformat() <= e['d'] <= friday.isoformat()
+               and re.sub(r'\W', '', e['n'].lower()) not in names]
+    if missing:
+        print('AVISO: faltan en el radar (presentan de hoy a viernes): ' + ', '.join(missing), file=sys.stderr)
+    mk = {s['m'] for s in D['stocks']}
+    opts = [('all', 'Todos')] + ([('r', 'Resultados semana')] if wk else []) + [('es', 'España'), ('us', 'EE. UU.')] \
+        + ([('eu', 'Europa')] if 'eu' in mk else []) + ([('as', 'Asia')] if 'as' in mk else []) \
+        + [('in', 'Entrar ya'), ('wait', 'Esperar'), ('no', 'No entrar')]
+    chips = ''.join(f'<button class="chip{" on" if k=="all" else ""}" data-f="{k}">{n}</button>' for k, n in opts)
     out.append(f'''
   <section id="valores">
     <h2>Radar de valores</h2>
@@ -255,7 +276,8 @@ def build(D):
   // Filtros y acordeones
   $('filters').addEventListener('click',function(e){{var b=e.target.closest('.chip');if(!b)return;var f=b.getAttribute('data-f');
     [].forEach.call(document.querySelectorAll('.chip'),function(c){{c.classList.toggle('on',c===b)}});
-    [].forEach.call(document.querySelectorAll('.stock'),function(s){{var ok=f==='all'||s.getAttribute('data-m')===f||s.getAttribute('data-v')===f;s.style.display=ok?'':'none'}});}});
+    [].forEach.call(document.querySelectorAll('.stock'),function(s){{var ok=f==='all'||s.getAttribute('data-m')===f||s.getAttribute('data-v')===f||(f==='r'&&s.getAttribute('data-r')==='1');s.style.display=ok?'':'none'}});
+    [].forEach.call(document.querySelectorAll('.grp'),function(g){{g.style.display=f==='all'?'':'none'}});}});
   $('stocks').addEventListener('click',function(e){{var h=e.target.closest('.head');if(!h)return;var o=h.parentNode.classList.toggle('open');h.setAttribute('aria-expanded',o)}});
   // Tema
   var th=ls('pt-theme')||'auto',order=['auto','light','dark'],nm={{auto:'🌗 Auto',light:'☀️ Claro',dark:'🌙 Oscuro'}};

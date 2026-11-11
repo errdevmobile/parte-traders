@@ -121,6 +121,8 @@
   .rz{display:inline-block;font-style:normal;font-size:11px;font-weight:600;padding:1px 7px;margin:0 0 2px 6px;border-radius:999px;background:var(--soft);color:var(--rz,#7cc7ff);vertical-align:middle}
   @media (prefers-color-scheme: light){ :root:not([data-theme=dark]) .rz{--rz:#1f6fb2} }
   :root[data-theme=light] .rz{--rz:#1f6fb2}
+  .grp{font-family:var(--meme);text-transform:uppercase;font-size:15px;letter-spacing:.4px;color:var(--muted);margin:14px 2px 6px}
+  .stock .nm .sfl{display:inline;font-size:17px;margin-right:6px;vertical-align:-1px}
   /* Funds */
   table{width:100%;border-collapse:collapse;font-size:14px}
   td,th{padding:8px 6px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
