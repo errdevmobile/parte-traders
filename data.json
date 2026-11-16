@@ -1,167 +1,284 @@
 {
- "edition": "Viernes 13 nov 2026 · 7:00",
- "editionDate": "2026-11-13",
+ "edition": "Lunes 16 nov 2026 · 7:00",
+ "editionDate": "2026-11-16",
  "draft": "",
  "mood": {
   "light": "a",
-  "title": "Prudencia: Nvidia se queda sin capitán",
-  "text": "El IBEX perdió los 20.000 puntos y Wall Street cerró en rojo tras la salida de Jensen Huang de Nvidia. Europa aguantó mejor y Cisco salvó la noche con un trimestre récord."
+  "title": "IBEX en 20.000 y Nvidia en el diván",
+  "text": "El IBEX cerró la semana por encima de los 20.000 (+3,4 %), pero la tecnología sigue nerviosa: mañana Nvidia presenta sus primeros resultados sin Jensen Huang."
  },
  "meme": {
-  "top": "Nvidia: «Jensen se va»",
-  "bottom": "Mi cartera tech: «¿y yo con quién me quedo?»",
+  "top": "IBEX: 20.000 puntos",
+  "bottom": "Nvidia: «mañana hablamos»",
   "tag": "meme del día",
   "mood": "a"
  },
  "meme2": {
-  "top": "Vender por un titular",
-  "bottom": "Comprar caro al día siguiente",
+  "top": "No compres el día antes de resultados",
+  "bottom": "Cómpralo el día después… o no",
   "tag": "sabiduría ancestral",
   "mood": "g"
  },
  "ticks": [
   {
    "n": "IBEX 35",
-   "v": "19.965,5",
-   "c": -0.31
+   "v": "20.020,1",
+   "c": 0.27
   },
   {
    "n": "DAX",
-   "v": "26.771,9",
-   "c": 0.41
+   "v": "26.750,0",
+   "c": -0.08
   },
   {
    "n": "Euro Stoxx 50",
-   "v": "6.399,0",
-   "c": 0.09
+   "v": "6.386,9",
+   "c": -0.19
   },
   {
    "n": "S&P 500",
-   "v": "7.592,4",
-   "c": -0.35
+   "v": "7.561,7",
+   "c": -0.4
   },
   {
    "n": "Nasdaq",
-   "v": "25.366,1",
-   "c": -0.39
+   "v": "25.136,3",
+   "c": -0.91
   },
   {
    "n": "Dow Jones",
-   "v": "52.297,1",
-   "c": -0.36
+   "v": "52.347,6",
+   "c": 0.1
   },
   {
    "n": "Oro ($)",
-   "v": "3.915",
-   "c": 0.98
+   "v": "3.886,3",
+   "c": 0.03
   },
   {
-   "n": "Bitcoin ($)",
-   "v": "68.391",
-   "c": -7.03
+   "n": "EUR/USD",
+   "v": "1,1028",
+   "c": -0.29
   }
  ],
- "ticksNote": "Índices: cierres del jueves 12. Oro y bitcoin, a primera hora del viernes. Brent cerca de 94 $ y EUR/USD en 1,106. Futuros del IBEX: sin dato fiable a esta hora.",
+ "ticksNote": "Cierres del viernes 13. Futuros del IBEX: sin dato fiable a esta hora.",
  "today": [
-  "<b>Nvidia sin Jensen Huang:</b> su consejero delegado deja el cargo y la acción cayó un 4,3 %. Presenta resultados el martes 17: será su primer examen sin él.",
-  "<b>IBEX bajo los 20.000:</b> cedió un 0,31 % hasta 19.965,5, con Indra, Santander y Telefónica a la baja y Naturgy al alza.",
-  "<b>Cisco, trimestre récord:</b> ingresos de 18.500 M$ (+24 %), mejora previsiones y sube un 3 % fuera de hora. Buena señal para la demanda de IA en redes.",
-  "<b>Telefónica vuelve a ganar dinero:</b> 464 M€ hasta septiembre y eleva objetivos de caja, pero la bolsa no lo celebró.",
-  "<b>Hoy, Richemont:</b> semestrales a las 7:00. Medida del apetito por el lujo y la joyería."
+  "<b>IBEX en 20.000:</b> cerró el viernes en 20.020,1 (+0,27 %), gana un 3,36 % en la semana y un 15,67 % en el año. Repsol lideró; Acciona se dejó casi un 8 %.",
+  "<b>Nvidia, mañana tras el cierre:</b> primeros resultados sin Jensen Huang; la conferencia la dirige la consejera delegada interina, Colette Kress.",
+  "<b>Semana de supermercados y bricolaje:</b> Home Depot y Disney el martes; Lowe's, TJX y Target el miércoles; Walmart el jueves.",
+  "<b>Richemont gustó poco al mercado:</b> vende un 16 % más (12.300 M€) y gana un 39 % más, pero la acción cayó un 6 % el viernes.",
+  "<b>Inflación mayorista en EE. UU.:</b> el IPP subió un 6,5 % anual, el mayor alza desde noviembre de 2022. Presión para la Fed de diciembre."
  ],
- "quote": "El mercado no despide al consejero delegado: despide a los que compraron sin plan.",
+ "quote": "Comprar antes de resultados es apostar; comprar después es invertir con un dato más.",
  "stocks": [
   {
-   "n": "Richemont",
-   "m": "eu",
-   "c": "CH",
-   "earn": "2026-11-13",
-   "tag": "Resultados vie 7:00",
+   "n": "Baidu",
+   "m": "as",
+   "c": "CN",
+   "earn": "2026-11-16",
+   "tag": "Resultados hoy",
    "p": "—",
    "v15": "wait",
    "v1m": "wait",
-   "why": "Presenta semestrales hoy a las 7:00; el mercado espera que la joyería (Cartier, Van Cleef) siga tirando. Mejor ver la reacción antes de entrar.",
-   "lvl": "Reacción de la primera hora",
-   "ev": "Resultados 13 nov · 7:00",
-   "quip": "Los diamantes son para siempre; las subidas post-resultados, no."
+   "why": "Presenta hoy; su negocio de IA y nube es lo que mira el mercado. Sin consenso verificado esta mañana: esperar a ver las cifras.",
+   "lvl": "Reacción a los resultados",
+   "ev": "Resultados 16 nov",
+   "quip": "Pregúntale a su buscador qué va a hacer la acción."
   },
   {
-   "n": "Telefónica",
-   "m": "es",
-   "tag": "Resultados ayer",
+   "n": "Home Depot",
+   "m": "us",
+   "c": "US",
+   "earn": "2026-11-17",
+   "tag": "Resultados mar",
    "p": "—",
    "v15": "wait",
    "v1m": "wait",
-   "why": "Vuelve a beneficios (464 M€ hasta septiembre), reduce deuda un 10,8 % y eleva objetivos de caja, pero la acción cayó en la sesión. Dividendo de 0,15 € confirmado para junio de 2027.",
-   "lvl": "Recuperar el terreno perdido ayer",
-   "ev": "Dividendo jun 2027",
-   "quip": "Ganar dinero y que no te aplaudan: nivel teleco."
+   "why": "El consenso espera un BPA de 3,84 $ (+2,7 %) con ingresos de 42.800 M$ (+3,4 %). Las opciones descuentan un movimiento de ±5 %.",
+   "lvl": "Reacción a los resultados",
+   "ev": "Resultados 17 nov · antes de abrir",
+   "quip": "Si los resultados flojean, siempre puedes comprar una escalera."
   },
   {
-   "n": "Merlin Properties",
-   "m": "es",
-   "tag": "Resultados ayer",
+   "n": "Disney",
+   "m": "us",
+   "c": "US",
+   "earn": "2026-11-17",
+   "tag": "Resultados mar",
    "p": "—",
    "v15": "wait",
-   "v1m": "in",
-   "why": "FFO de 274,5 M€ (+11,9 %) en nueve meses, ocupación del 95 % y mejora de previsión para 2026. Llamada con analistas hoy a las 15:00.",
-   "lvl": "NTA de 16,13 € por acción",
-   "ev": "Llamada 13 nov · 15:00",
-   "quip": "Alquilar oficinas y centros de datos: el ladrillo que no se aburre."
+   "v1m": "wait",
+   "why": "Presenta el martes antes de la apertura. Parques y streaming marcarán la lectura; mejor esperar a la reacción.",
+   "lvl": "Reacción a los resultados",
+   "ev": "Resultados 17 nov · antes de abrir",
+   "quip": "Hakuna matata… hasta que salgan los números."
+  },
+  {
+   "n": "JD.com",
+   "m": "as",
+   "c": "CN",
+   "earn": "2026-11-17",
+   "tag": "Resultados mar",
+   "p": "—",
+   "v15": "wait",
+   "v1m": "wait",
+   "why": "Presenta el martes; el consumo chino sigue siendo la gran incógnita del sector.",
+   "lvl": "Reacción a los resultados",
+   "ev": "Resultados 17 nov",
+   "quip": "Envío en 24 h; certezas, no tantas."
   },
   {
    "n": "Nvidia",
    "m": "us",
-   "tag": "CEO se va",
+   "c": "US",
+   "earn": "2026-11-17",
+   "tag": "Resultados mar ≈22:00",
    "p": "—",
    "v15": "no",
    "v1m": "wait",
-   "why": "Jensen Huang deja la dirección y la acción cayó un 4,3 %. El martes 17 presenta resultados sin él: demasiada incertidumbre para entrar antes.",
-   "lvl": "Ver reacción a resultados del 17",
-   "ev": "Resultados 17 nov",
-   "quip": "Sin chaqueta de cuero no es lo mismo."
+   "why": "Primeros resultados sin Jensen Huang; la llamada la dirige la consejera delegada interina, Colette Kress. Cayó dos sesiones seguidas por el cambio de mando: demasiada incertidumbre para entrar antes.",
+   "lvl": "Reacción a los resultados",
+   "ev": "Resultados 17 nov · tras el cierre",
+   "quip": "Sin chaqueta de cuero, toca mirar la cuenta de resultados."
   },
   {
-   "n": "Cisco",
+   "n": "Lowe's",
    "m": "us",
-   "tag": "Resultados récord",
-   "p": "—",
-   "v15": "wait",
-   "v1m": "in",
-   "why": "Ingresos récord de 18.500 M$ (+24 %), BPA ajustado de 1,40 $ y previsión anual elevada a 74.800-75.800 M$. Sube un 3 % fuera de hora.",
-   "lvl": "Mantener el hueco al alza",
-   "ev": "Próximos resultados en febrero",
-   "quip": "El router de tu casa, ahora con ínfulas de IA."
-  },
-  {
-   "n": "Applied Materials",
-   "m": "us",
-   "tag": "Resultados ayer",
+   "c": "US",
+   "earn": "2026-11-18",
+   "tag": "Resultados mié",
    "p": "—",
    "v15": "wait",
    "v1m": "wait",
-   "why": "Prevé unos 11.100 M$ de ingresos este trimestre y un negocio de semiconductores creciendo más de un 40 % en 2026 por la IA. Con Nvidia tocada, prudencia.",
-   "lvl": "Ver apertura del viernes",
-   "ev": "Nvidia 17 nov marca el sector",
-   "quip": "Vende las palas en la fiebre del oro… cuando el oro tiembla."
+   "why": "El día después de Home Depot: su informe confirmará o no la foto de la vivienda en EE. UU.",
+   "lvl": "Reacción a los resultados",
+   "ev": "Resultados 18 nov",
+   "quip": "El hermano pequeño del bricolaje."
+  },
+  {
+   "n": "TJX",
+   "m": "us",
+   "c": "US",
+   "earn": "2026-11-18",
+   "tag": "Resultados mié",
+   "p": "—",
+   "v15": "wait",
+   "v1m": "wait",
+   "why": "Con el consumidor buscando precio, es de los minoristas que mejor aguantan. Esperar a las cifras.",
+   "lvl": "Reacción a los resultados",
+   "ev": "Resultados 18 nov",
+   "quip": "Lujo a precio de outlet, como el mercado de hoy."
+  },
+  {
+   "n": "Target",
+   "m": "us",
+   "c": "US",
+   "earn": "2026-11-18",
+   "tag": "Resultados mié",
+   "p": "—",
+   "v15": "wait",
+   "v1m": "wait",
+   "why": "Viene de trimestres flojos; cualquier sorpresa moverá mucho la acción. Mejor esperar.",
+   "lvl": "Reacción a los resultados",
+   "ev": "Resultados 18 nov",
+   "quip": "Diana… a ver si esta vez acierta."
+  },
+  {
+   "n": "Palo Alto Networks",
+   "m": "us",
+   "c": "US",
+   "earn": "2026-11-18",
+   "tag": "Resultados mié",
+   "p": "—",
+   "v15": "wait",
+   "v1m": "wait",
+   "why": "Ciberseguridad con exposición a IA. Tras la semana de Nvidia, el sector tecnológico llega sensible.",
+   "lvl": "Reacción a los resultados",
+   "ev": "Resultados 18 nov",
+   "quip": "Cortafuegos para la cartera, no garantizado."
+  },
+  {
+   "n": "Walmart",
+   "m": "us",
+   "c": "US",
+   "earn": "2026-11-19",
+   "tag": "Resultados jue",
+   "p": "—",
+   "v15": "wait",
+   "v1m": "wait",
+   "why": "El gran termómetro del consumo estadounidense antes de las compras navideñas. Esperar a la cifra y a su previsión.",
+   "lvl": "Reacción a los resultados",
+   "ev": "Resultados 19 nov · antes de abrir",
+   "quip": "Si Walmart no vende, nadie vende."
+  },
+  {
+   "n": "Intuit",
+   "m": "us",
+   "c": "US",
+   "earn": "2026-11-19",
+   "tag": "Resultados jue",
+   "p": "—",
+   "v15": "wait",
+   "v1m": "wait",
+   "why": "Software financiero; presenta el jueves. Sin consenso verificado esta mañana.",
+   "lvl": "Reacción a los resultados",
+   "ev": "Resultados 19 nov",
+   "quip": "Hacer la declaración es más fácil que adivinar su acción."
+  },
+  {
+   "n": "Repsol",
+   "m": "es",
+   "tag": "Lidera el IBEX",
+   "p": "—",
+   "v15": "wait",
+   "v1m": "in",
+   "why": "Subió un 3,31 % el viernes y lideró el IBEX con el petróleo al alza por las tensiones en Oriente Medio. Muy ligado al crudo: si baja la tensión, se desinfla.",
+   "lvl": "Mantener la subida del viernes",
+   "ev": "Sigue al Brent",
+   "quip": "Cuando hay lío en el Golfo, Repsol sonríe."
+  },
+  {
+   "n": "Acciona",
+   "m": "es",
+   "tag": "Cae un 8 %",
+   "p": "—",
+   "v15": "no",
+   "v1m": "wait",
+   "why": "Se dejó un 7,98 % el viernes, la peor del IBEX. Hasta entender el motivo de la caída, mejor no tocarla.",
+   "lvl": "Esperar a que frene la caída",
+   "ev": "—",
+   "quip": "No es momento de construir sobre esta obra."
+  },
+  {
+   "n": "AMD",
+   "m": "us",
+   "tag": "Sube un 19 % semanal",
+   "p": "—",
+   "v15": "wait",
+   "v1m": "wait",
+   "why": "Ganó un 18,9 % en la semana mientras Nvidia caía: el mercado premia a los rivales. Tras un subidón así y con Nvidia presentando mañana, mejor no perseguirla.",
+   "lvl": "Consolidar la subida semanal",
+   "ev": "Resultados de Nvidia 17 nov",
+   "quip": "Cuando el líder tropieza, el segundo corre."
+  },
+  {
+   "n": "Broadcom",
+   "m": "us",
+   "tag": "Sube un 18 % semanal",
+   "p": "—",
+   "v15": "wait",
+   "v1m": "wait",
+   "why": "Subió un 18,2 % en la semana junto a AMD. Muy expuesta a lo que diga Nvidia mañana: esperar a esa referencia.",
+   "lvl": "Ver reacción tras Nvidia",
+   "ev": "Resultados de Nvidia 17 nov",
+   "quip": "Chips sin dramas de dirección."
   }
  ],
  "events": [
   {
-   "d": "2026-11-13",
-   "t": "IPP de EE. UU. 14:30",
-   "s": "Inflación mayorista"
-  },
-  {
-   "d": "2026-11-17",
-   "t": "Nvidia, Home Depot, Disney",
-   "s": "Nvidia tras el cierre: el evento del mes",
-   "hot": true
-  },
-  {
-   "d": "2026-11-19",
-   "t": "Walmart · Intuit",
-   "s": "Consumo en EE. UU."
+   "d": "2026-11-18",
+   "t": "Actas de la Fed",
+   "s": "Pistas para la reunión de diciembre"
   },
   {
    "d": "2026-11-25",
@@ -247,108 +364,86 @@
  ],
  "earnings": [
   {
-   "d": "2026-11-09",
-   "h": "antes de abrir",
-   "n": "Constellation Energy",
-   "c": "US",
-   "s": "Eléctrica · energía para centros de datos"
-  },
-  {
-   "d": "2026-11-09",
-   "h": "antes de abrir",
-   "n": "UniCredit",
-   "c": "IT",
-   "s": "Banca"
-  },
-  {
-   "d": "2026-11-10",
-   "h": "≈8:00",
-   "n": "Vodafone",
-   "c": "GB",
-   "s": "Telecos · semestrales"
-  },
-  {
-   "d": "2026-11-10",
-   "h": "antes de abrir",
-   "n": "Infineon",
-   "c": "DE",
-   "s": "Chips"
-  },
-  {
-   "d": "2026-11-10",
-   "h": "≈22:00",
-   "n": "CoreWeave",
-   "c": "US",
-   "s": "Nube para IA · tras el cierre"
-  },
-  {
-   "d": "2026-11-11",
+   "d": "2026-11-16",
    "h": "sin hora",
-   "n": "ACS",
-   "c": "ES",
-   "s": "9 meses · Capital Markets Day el jueves",
-   "hot": true
+   "n": "Baidu",
+   "c": "CN",
+   "s": "Buscador e IA"
   },
   {
-   "d": "2026-11-11",
-   "h": "≈7:00",
-   "n": "Siemens Energy",
-   "c": "DE",
-   "s": "Cierre de su año fiscal"
-  },
-  {
-   "d": "2026-11-12",
-   "h": "7:30",
-   "n": "Telefónica",
-   "c": "ES",
-   "s": "Gana 464 M€ hasta septiembre y eleva objetivos",
-   "hot": true
-  },
-  {
-   "d": "2026-11-12",
-   "h": "7:00",
-   "n": "Siemens",
-   "c": "DE",
-   "s": "Cierre de su año fiscal"
-  },
-  {
-   "d": "2026-11-12",
+   "d": "2026-11-17",
    "h": "antes de abrir",
-   "n": "Allianz",
-   "c": "DE",
-   "s": "Seguros · 9 meses"
-  },
-  {
-   "d": "2026-11-12",
-   "h": "tras el cierre",
-   "n": "Merlin Properties",
-   "c": "ES",
-   "s": "FFO +11,9 % y eleva previsión · llamada vie 15:00"
-  },
-  {
-   "d": "2026-11-12",
-   "h": "≈22:00",
-   "n": "Cisco",
+   "n": "Home Depot",
    "c": "US",
-   "s": "Ingresos récord y mejora previsiones",
+   "s": "Bricolaje · llamada 15:00",
    "hot": true
   },
   {
-   "d": "2026-11-12",
-   "h": "≈22:00",
-   "n": "Applied Materials",
+   "d": "2026-11-17",
+   "h": "antes de abrir",
+   "n": "Disney",
    "c": "US",
-   "s": "Prevé ≈11.100 M$ este trimestre"
+   "s": "Parques y streaming"
   },
   {
-   "d": "2026-11-13",
-   "h": "7:00",
-   "n": "Richemont",
-   "c": "CH",
-   "s": "Semestrales · webcast 9:30",
+   "d": "2026-11-17",
+   "h": "sin hora",
+   "n": "JD.com",
+   "c": "CN",
+   "s": "Comercio electrónico"
+  },
+  {
+   "d": "2026-11-17",
+   "h": "≈22:00",
+   "n": "Nvidia",
+   "c": "US",
+   "s": "Primeros sin Jensen Huang · tras el cierre",
    "hot": true
+  },
+  {
+   "d": "2026-11-18",
+   "h": "sin hora",
+   "n": "Lowe's",
+   "c": "US",
+   "s": "Bricolaje"
+  },
+  {
+   "d": "2026-11-18",
+   "h": "sin hora",
+   "n": "TJX",
+   "c": "US",
+   "s": "Moda a precio de saldo"
+  },
+  {
+   "d": "2026-11-18",
+   "h": "sin hora",
+   "n": "Target",
+   "c": "US",
+   "s": "Grandes almacenes"
+  },
+  {
+   "d": "2026-11-18",
+   "h": "sin hora",
+   "n": "Palo Alto Networks",
+   "c": "US",
+   "s": "Ciberseguridad"
+  },
+  {
+   "d": "2026-11-19",
+   "h": "antes de abrir",
+   "n": "Walmart",
+   "c": "US",
+   "s": "Termómetro del consumo",
+   "hot": true
+  },
+  {
+   "d": "2026-11-19",
+   "h": "sin hora",
+   "n": "Intuit",
+   "c": "US",
+   "s": "Software financiero"
   }
  ],
- "earningsNote": "Hora de España. «Antes de abrir» = antes de las 9:00 en Europa; en EE. UU., antes de las 15:30. «Tras el cierre» de Wall Street = desde las 22:00. Bandera y siglas: país de la sede. Hoy no hay resultados grandes previstos en el S&P 500.",
- "stocksNote": "Primero, todas las empresas que presentan resultados de hoy a viernes (también las de Europa y Asia). Después, otros valores de España y EE. UU. con un motivo concreto hoy. La etiqueta azul dice por qué está cada uno."
+ "earningsNote": "Hora de España. «Antes de abrir» = antes de las 15:30 en EE. UU.; «tras el cierre» = desde las 22:00. «Sin hora»: la empresa aún no la ha confirmado. Bandera y siglas: país de la sede.",
+ "stocksNote": "Primero, todas las empresas que presentan resultados de hoy a viernes (también las de Asia). Después, otros valores de España y EE. UU. con un motivo concreto hoy. La etiqueta azul dice por qué está cada uno."
 }
