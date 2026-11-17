@@ -1,96 +1,82 @@
 {
- "edition": "Lunes 16 nov 2026 · 7:00",
- "editionDate": "2026-11-16",
+ "edition": "Martes 17 nov 2026 · 7:00",
+ "editionDate": "2026-11-17",
  "draft": "",
  "mood": {
-  "light": "a",
-  "title": "IBEX en 20.000 y Nvidia en el diván",
-  "text": "El IBEX cerró la semana por encima de los 20.000 (+3,4 %), pero la tecnología sigue nerviosa: mañana Nvidia presenta sus primeros resultados sin Jensen Huang."
+  "light": "r",
+  "title": "Día de Nvidia con el miedo subido",
+  "text": "Wall Street cayó con fuerza el lunes (Nasdaq −2,5 %) y el índice del miedo VIX subió un 19 %. Esta noche presenta Nvidia: el examen que lo decide todo."
  },
  "meme": {
-  "top": "IBEX: 20.000 puntos",
-  "bottom": "Nvidia: «mañana hablamos»",
+  "top": "El Nasdaq esperando a Nvidia",
+  "bottom": "Como yo esperando las notas de selectividad",
   "tag": "meme del día",
-  "mood": "a"
+  "mood": "r"
  },
  "meme2": {
-  "top": "No compres el día antes de resultados",
-  "bottom": "Cómpralo el día después… o no",
+  "top": "Si no duermes por tu cartera",
+  "bottom": "Tu cartera tiene demasiado riesgo",
   "tag": "sabiduría ancestral",
-  "mood": "g"
+  "mood": "a"
  },
  "ticks": [
   {
    "n": "IBEX 35",
-   "v": "20.020,1",
-   "c": 0.27
-  },
-  {
-   "n": "DAX",
-   "v": "26.750,0",
-   "c": -0.08
+   "v": "19.946,6",
+   "c": -0.37
   },
   {
    "n": "Euro Stoxx 50",
-   "v": "6.386,9",
-   "c": -0.19
+   "v": "6.348,4",
+   "c": -0.6
   },
   {
    "n": "S&P 500",
-   "v": "7.561,7",
-   "c": -0.4
+   "v": "7.416,6",
+   "c": -1.92
   },
   {
    "n": "Nasdaq",
-   "v": "25.136,3",
-   "c": -0.91
+   "v": "24.509,8",
+   "c": -2.49
   },
   {
    "n": "Dow Jones",
-   "v": "52.347,6",
-   "c": 0.1
+   "v": "51.608,2",
+   "c": -1.41
   },
   {
    "n": "Oro ($)",
-   "v": "3.886,3",
-   "c": 0.03
+   "v": "3.875,9",
+   "c": 0.52
   },
   {
    "n": "EUR/USD",
-   "v": "1,1028",
-   "c": -0.29
+   "v": "1,1007",
+   "c": 0.09
+  },
+  {
+   "n": "Bitcoin ($)",
+   "v": "64.673",
+   "c": -0.72
   }
  ],
- "ticksNote": "Cierres del viernes 13. Futuros del IBEX: sin dato fiable a esta hora.",
+ "ticksNote": "Cierres del lunes 16. Oro, EUR/USD y bitcoin, últimos datos disponibles. Futuros del IBEX: sin dato fiable a esta hora.",
  "today": [
-  "<b>IBEX en 20.000:</b> cerró el viernes en 20.020,1 (+0,27 %), gana un 3,36 % en la semana y un 15,67 % en el año. Repsol lideró; Acciona se dejó casi un 8 %.",
-  "<b>Nvidia, mañana tras el cierre:</b> primeros resultados sin Jensen Huang; la conferencia la dirige la consejera delegada interina, Colette Kress.",
-  "<b>Semana de supermercados y bricolaje:</b> Home Depot y Disney el martes; Lowe's, TJX y Target el miércoles; Walmart el jueves.",
-  "<b>Richemont gustó poco al mercado:</b> vende un 16 % más (12.300 M€) y gana un 39 % más, pero la acción cayó un 6 % el viernes.",
-  "<b>Inflación mayorista en EE. UU.:</b> el IPP subió un 6,5 % anual, el mayor alza desde noviembre de 2022. Presión para la Fed de diciembre."
+  "<b>Lunes rojo en Wall Street:</b> S&P 500 −1,9 %, Nasdaq −2,5 % y Dow −739 puntos. Nvidia arrastró a todo el sector de la IA y el VIX se disparó un 19 %.",
+  "<b>Nvidia, esta noche tras el cierre:</b> primeros resultados sin Jensen Huang, y su consejo ya ha dejado claro que no piensa traerlo de vuelta. Cotiza un 10 % por debajo de antes de su salida.",
+  "<b>IBEX, de nuevo bajo 20.000:</b> cedió un 0,37 % hasta 19.946,6. Amadeus (+2,1 %), Ferrovial, Aena e Inditex aguantaron.",
+  "<b>Baidu decepcionó:</b> ingresos de 30.800 M de yuanes (−1 %) y beneficio por debajo de lo esperado, aunque su nube de IA crece un 94 %.",
+  "<b>Hoy también:</b> Home Depot y Disney antes de la apertura de Wall Street. Esta semana, además, debuta en bolsa Anthropic."
  ],
- "quote": "Comprar antes de resultados es apostar; comprar después es invertir con un dato más.",
+ "quote": "Los días de resultados no se adivinan: se esperan con la mano quieta.",
  "stocks": [
-  {
-   "n": "Baidu",
-   "m": "as",
-   "c": "CN",
-   "earn": "2026-11-16",
-   "tag": "Resultados hoy",
-   "p": "—",
-   "v15": "wait",
-   "v1m": "wait",
-   "why": "Presenta hoy; su negocio de IA y nube es lo que mira el mercado. Sin consenso verificado esta mañana: esperar a ver las cifras.",
-   "lvl": "Reacción a los resultados",
-   "ev": "Resultados 16 nov",
-   "quip": "Pregúntale a su buscador qué va a hacer la acción."
-  },
   {
    "n": "Home Depot",
    "m": "us",
    "c": "US",
    "earn": "2026-11-17",
-   "tag": "Resultados mar",
+   "tag": "Resultados hoy",
    "p": "—",
    "v15": "wait",
    "v1m": "wait",
@@ -104,7 +90,7 @@
    "m": "us",
    "c": "US",
    "earn": "2026-11-17",
-   "tag": "Resultados mar",
+   "tag": "Resultados hoy",
    "p": "—",
    "v15": "wait",
    "v1m": "wait",
@@ -118,7 +104,7 @@
    "m": "as",
    "c": "CN",
    "earn": "2026-11-17",
-   "tag": "Resultados mar",
+   "tag": "Resultados hoy",
    "p": "—",
    "v15": "wait",
    "v1m": "wait",
@@ -132,11 +118,11 @@
    "m": "us",
    "c": "US",
    "earn": "2026-11-17",
-   "tag": "Resultados mar ≈22:00",
+   "tag": "Resultados hoy ≈22:00",
    "p": "—",
    "v15": "no",
    "v1m": "wait",
-   "why": "Primeros resultados sin Jensen Huang; la llamada la dirige la consejera delegada interina, Colette Kress. Cayó dos sesiones seguidas por el cambio de mando: demasiada incertidumbre para entrar antes.",
+   "why": "Presenta esta noche, la primera vez sin Jensen Huang; su consejo ha dicho que no contempla traerlo de vuelta. Ya cotiza un 10 % por debajo de antes de su salida y el lunes arrastró a todo el sector.",
    "lvl": "Reacción a los resultados",
    "ev": "Resultados 17 nov · tras el cierre",
    "quip": "Sin chaqueta de cuero, toca mirar la cuenta de resultados."
@@ -226,52 +212,52 @@
    "quip": "Hacer la declaración es más fácil que adivinar su acción."
   },
   {
-   "n": "Repsol",
+   "n": "Amadeus",
    "m": "es",
    "tag": "Lidera el IBEX",
    "p": "—",
    "v15": "wait",
    "v1m": "in",
-   "why": "Subió un 3,31 % el viernes y lideró el IBEX con el petróleo al alza por las tensiones en Oriente Medio. Muy ligado al crudo: si baja la tensión, se desinfla.",
-   "lvl": "Mantener la subida del viernes",
-   "ev": "Sigue al Brent",
-   "quip": "Cuando hay lío en el Golfo, Repsol sonríe."
+   "why": "Subió un 2,06 % el lunes y lideró el IBEX en una sesión de caídas. Negocio de viajes poco expuesto al susto de la IA.",
+   "lvl": "Mantener la subida del lunes",
+   "ev": "—",
+   "quip": "Cuando la tecnología tiembla, todos quieren irse de viaje."
   },
   {
-   "n": "Acciona",
+   "n": "Inditex",
    "m": "es",
-   "tag": "Cae un 8 %",
+   "tag": "Resultados 2 dic",
    "p": "—",
-   "v15": "no",
+   "v15": "wait",
    "v1m": "wait",
-   "why": "Se dejó un 7,98 % el viernes, la peor del IBEX. Hasta entender el motivo de la caída, mejor no tocarla.",
-   "lvl": "Esperar a que frene la caída",
-   "ev": "—",
-   "quip": "No es momento de construir sobre esta obra."
+   "why": "Subió un 1,11 % el lunes. Presenta resultados de nueve meses el 2 de diciembre: el mercado mirará el arranque de la campaña de invierno.",
+   "lvl": "—",
+   "ev": "Resultados 2 dic",
+   "quip": "La moda pasa; Amancio se queda."
   },
   {
    "n": "AMD",
    "m": "us",
-   "tag": "Sube un 19 % semanal",
+   "tag": "Venta de chips",
    "p": "—",
-   "v15": "wait",
+   "v15": "no",
    "v1m": "wait",
-   "why": "Ganó un 18,9 % en la semana mientras Nvidia caía: el mercado premia a los rivales. Tras un subidón así y con Nvidia presentando mañana, mejor no perseguirla.",
-   "lvl": "Consolidar la subida semanal",
-   "ev": "Resultados de Nvidia 17 nov",
-   "quip": "Cuando el líder tropieza, el segundo corre."
+   "why": "Tras subir casi un 19 % la semana pasada, el lunes la venta de chips arrastró a todo el sector. Lo que diga Nvidia esta noche marcará su rumbo.",
+   "lvl": "Ver reacción tras Nvidia",
+   "ev": "Resultados de Nvidia hoy",
+   "quip": "Cuando el líder estornuda, el rival se resfría."
   },
   {
    "n": "Broadcom",
    "m": "us",
-   "tag": "Sube un 18 % semanal",
+   "tag": "Venta de chips",
    "p": "—",
-   "v15": "wait",
+   "v15": "no",
    "v1m": "wait",
-   "why": "Subió un 18,2 % en la semana junto a AMD. Muy expuesta a lo que diga Nvidia mañana: esperar a esa referencia.",
+   "why": "Mismo caso que AMD: venía de subir un 18 % en la semana y el lunes sufrió la venta del sector. Esperar a Nvidia.",
    "lvl": "Ver reacción tras Nvidia",
-   "ev": "Resultados de Nvidia 17 nov",
-   "quip": "Chips sin dramas de dirección."
+   "ev": "Resultados de Nvidia hoy",
+   "quip": "En la fiesta de la IA, nadie quiere ser el último en irse."
   }
  ],
  "events": [
@@ -368,7 +354,7 @@
    "h": "sin hora",
    "n": "Baidu",
    "c": "CN",
-   "s": "Buscador e IA"
+   "s": "Ingresos −1 %, beneficio por debajo de lo esperado; nube de IA +94 %"
   },
   {
    "d": "2026-11-17",
