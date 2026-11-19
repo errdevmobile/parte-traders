@@ -1,142 +1,86 @@
 {
- "edition": "Miércoles 18 nov 2026 · 7:00",
- "editionDate": "2026-11-18",
+ "edition": "Jueves 19 nov 2026 · 7:00",
+ "editionDate": "2026-11-19",
  "draft": "",
  "mood": {
-  "light": "r",
-  "title": "Nvidia cumple, el mercado sigue con miedo",
-  "text": "Martes de fuertes caídas en Europa (Euro Stoxx 50 −2,15 %) y Wall Street, con nuevas restricciones de EE. UU. a los chips. Por la noche, Nvidia dobló ingresos y subió fuera de hora."
+  "light": "a",
+  "title": "La Fed aprieta, el consumo resiste",
+  "text": "Las actas de la Fed apuntan a más subidas de tipos y el S&P 500 encadena cinco caídas. A favor: TJX, Target y Lowe's batieron previsiones y los futuros de EE. UU. suben esta madrugada."
  },
  "meme": {
-  "top": "Nvidia: ingresos +103 %",
-  "bottom": "El mercado: «sí, pero ¿y Jensen?»",
+  "top": "Nvidia: ingresos récord",
+  "bottom": "La acción: −2,9 %. Lógica de bolsa",
   "tag": "meme del día",
-  "mood": "r"
+  "mood": "a"
  },
  "meme2": {
-  "top": "Los días rojos asustan",
-  "bottom": "Los planes de inversión no leen titulares",
+  "top": "Comprar lo que todos venden",
+  "bottom": "Solo con plan, no con corazonada",
   "tag": "sabiduría ancestral",
   "mood": "g"
  },
  "ticks": [
   {
    "n": "IBEX 35",
-   "v": "19.625,3",
-   "c": -1.61
+   "v": "19.373,3",
+   "c": -1.28
   },
   {
    "n": "DAX",
-   "v": "26.045,4",
-   "c": -2.08
+   "v": "25.736,2",
+   "c": -1.11
   },
   {
    "n": "Euro Stoxx 50",
-   "v": "6.212,1",
-   "c": -2.15
+   "v": "6.151",
+   "c": -0.97
   },
   {
    "n": "CAC 40",
-   "v": "8.221,5",
-   "c": -1.56
+   "v": "8.150,8",
+   "c": -0.8
   },
   {
    "n": "S&P 500",
-   "v": "7.340,5",
-   "c": -1.03
+   "v": "7.323,6",
+   "c": -0.23
   },
   {
    "n": "Nasdaq",
-   "v": "24.328,4",
-   "c": -0.74
+   "v": "24.429,9",
+   "c": 0.42
   },
   {
    "n": "Dow Jones",
-   "v": "50.759,4",
-   "c": -1.64
+   "v": "50.198,2",
+   "c": -1.11
   },
   {
-   "n": "Nasdaq 100",
-   "v": "27.001,8",
-   "c": -0.72
+   "n": "Fut. S&P 500",
+   "v": "7.378",
+   "c": 0.51
   }
  ],
- "ticksNote": "Cierres del martes 17. El euro perdió los 1,10 dólares. Futuros del IBEX: sin dato fiable a esta hora.",
+ "ticksNote": "Cierres del miércoles 18. Futuro del S&P 500 tras el cierre de Wall Street. Futuros del IBEX: sin dato fiable a esta hora.",
  "today": [
-  "<b>Nvidia cumple sin Jensen Huang:</b> ingresos de 115.800 M$ (+103 %) y centros de datos +110 %. La acción subió fuera de hora tras cuatro días de castigo.",
-  "<b>Martes negro en Europa:</b> Euro Stoxx 50 −2,15 % y DAX −2,08 %, con las nuevas restricciones de EE. UU. a la venta de chips de IA a países como China.",
-  "<b>IBEX en 19.625,3 (−1,61 %):</b> borra lo ganado la semana pasada. Indra se hundió un 6,4 % por una investigación de Anticorrupción; solo cuatro valores en verde.",
-  "<b>Wall Street, cuarto día de caídas:</b> el S&P 500 marca mínimos de cinco meses. Salesforce se desplomó un 9,5 % y arrastró al software.",
-  "<b>Ayer también:</b> Disney subió tras batir previsiones; Home Depot bajó pese a superar lo esperado, por una previsión prudente."
+  "<b>La Fed quiere más subidas:</b> según las actas, casi todos sus miembros ven apropiado seguir subiendo tipos. El S&P 500 encadena cinco caídas, su peor racha desde junio.",
+  "<b>IBEX, tercera sesión en rojo:</b> cae un 1,28 % hasta 19.373,3. Repsol se dejó más de un 6 % con el petróleo a la baja; solo IAG y Redeia subieron.",
+  "<b>Nvidia no convence:</b> pese a ingresos récord cayó un 2,9 %. El Nasdaq sí subió (+0,42 %) gracias a Amazon y Broadcom.",
+  "<b>El consumo aguanta:</b> TJX +8 %, Target +4 % (mejor crecimiento en cinco años) y Lowe's +1 % tras batir previsiones. Palo Alto también batió anoche.",
+  "<b>Hoy, Walmart y Anthropic:</b> Walmart presenta antes de la apertura y Anthropic debuta en el Nasdaq tras fijar su salida por encima del rango."
  ],
- "quote": "Un buen resultado en un mal día de mercado sigue siendo un buen resultado.",
+ "quote": "Cuando sube el tipo de interés, baja la paciencia del mercado.",
  "stocks": [
-  {
-   "n": "Lowe's",
-   "m": "us",
-   "c": "US",
-   "earn": "2026-11-18",
-   "tag": "Resultados hoy",
-   "p": "—",
-   "v15": "wait",
-   "v1m": "wait",
-   "why": "El día después de Home Depot: su informe confirmará o no la foto de la vivienda en EE. UU.",
-   "lvl": "Reacción a los resultados",
-   "ev": "Resultados 18 nov",
-   "quip": "El hermano pequeño del bricolaje."
-  },
-  {
-   "n": "TJX",
-   "m": "us",
-   "c": "US",
-   "earn": "2026-11-18",
-   "tag": "Resultados hoy",
-   "p": "—",
-   "v15": "wait",
-   "v1m": "wait",
-   "why": "Con el consumidor buscando precio, es de los minoristas que mejor aguantan. Esperar a las cifras.",
-   "lvl": "Reacción a los resultados",
-   "ev": "Resultados 18 nov",
-   "quip": "Lujo a precio de outlet, como el mercado de hoy."
-  },
-  {
-   "n": "Target",
-   "m": "us",
-   "c": "US",
-   "earn": "2026-11-18",
-   "tag": "Resultados hoy",
-   "p": "—",
-   "v15": "wait",
-   "v1m": "wait",
-   "why": "Viene de trimestres flojos; cualquier sorpresa moverá mucho la acción. Mejor esperar.",
-   "lvl": "Reacción a los resultados",
-   "ev": "Resultados 18 nov",
-   "quip": "Diana… a ver si esta vez acierta."
-  },
-  {
-   "n": "Palo Alto Networks",
-   "m": "us",
-   "c": "US",
-   "earn": "2026-11-18",
-   "tag": "Resultados hoy",
-   "p": "—",
-   "v15": "wait",
-   "v1m": "wait",
-   "why": "Presenta hoy. El software sufrió el martes una fuerte venta; sus cifras dirán si la ciberseguridad aguanta mejor.",
-   "lvl": "Reacción a los resultados",
-   "ev": "Resultados 18 nov",
-   "quip": "Cortafuegos para la cartera, no garantizado."
-  },
   {
    "n": "Walmart",
    "m": "us",
    "c": "US",
    "earn": "2026-11-19",
-   "tag": "Resultados jue",
+   "tag": "Resultados hoy",
    "p": "—",
    "v15": "wait",
    "v1m": "wait",
-   "why": "El gran termómetro del consumo estadounidense antes de las compras navideñas. Esperar a la cifra y a su previsión.",
+   "why": "Presenta hoy antes de la apertura de Wall Street; los analistas esperan ingresos de unos 187.300 M$. Tras las buenas cifras de TJX, Target y Lowe's, el listón está alto.",
    "lvl": "Reacción a los resultados",
    "ev": "Resultados 19 nov · antes de abrir",
    "quip": "Si Walmart no vende, nadie vende."
@@ -146,7 +90,7 @@
    "m": "us",
    "c": "US",
    "earn": "2026-11-19",
-   "tag": "Resultados jue",
+   "tag": "Resultados hoy",
    "p": "—",
    "v15": "wait",
    "v1m": "wait",
@@ -158,58 +102,65 @@
   {
    "n": "Nvidia",
    "m": "us",
-   "tag": "Resultados ayer",
+   "tag": "Cae tras resultados",
    "p": "—",
    "v15": "wait",
    "v1m": "in",
-   "why": "Ingresos de 115.800 M$ (+103 %) y centros de datos de 107.600 M$ (+110 %), con margen del 74,9 %. Sube fuera de hora tras cuatro sesiones de caídas por la salida de Jensen Huang.",
-   "lvl": "Mantener la subida de hoy",
+   "why": "Ingresos de 115.800 M$ (+103 %), pero la acción cayó un 2,89 % el miércoles: el mercado duda de la transición sin Jensen Huang y de los tipos.",
+   "lvl": "Recuperar el nivel previo a resultados",
    "ev": "Próximos resultados en febrero",
-   "quip": "Sin chaqueta de cuero, pero con la cartera llena."
+   "quip": "Batir previsiones ya no basta: hay que batir el miedo."
   },
   {
-   "n": "Salesforce",
+   "n": "Palo Alto Networks",
    "m": "us",
-   "tag": "Cae un 9,5 %",
+   "tag": "Bate previsiones",
    "p": "—",
-   "v15": "no",
-   "v1m": "wait",
-   "why": "Se desplomó un 9,45 % el martes y encabezó la venta del software. Hasta que se aclare el motivo, mejor no intentar adivinar el suelo.",
-   "lvl": "Esperar a que frene la caída",
+   "v15": "wait",
+   "v1m": "in",
+   "why": "Subió un 9,9 % el miércoles por una alerta federal sobre un fallo crítico de Java y después batió previsiones tras el cierre.",
+   "lvl": "Mantener la subida del miércoles",
    "ev": "—",
-   "quip": "La nube también tiene días de tormenta."
+   "quip": "Un agujero en Java, un regalo para los cortafuegos."
   },
   {
-   "n": "Indra",
-   "m": "es",
-   "tag": "Cae un 6,4 %",
+   "n": "Target",
+   "m": "us",
+   "tag": "Sube un 4 %",
    "p": "—",
-   "v15": "no",
-   "v1m": "wait",
-   "why": "Se dejó un 6,41 % el martes, la peor del IBEX, en plena investigación de la Fiscalía Anticorrupción. Riesgo de titulares: mejor esperar.",
-   "lvl": "Esperar a que se aclare la investigación",
+   "v15": "wait",
+   "v1m": "in",
+   "why": "Su mejor crecimiento de ventas en cinco años y una previsión anual elevada a 10,65-11,40 $ por acción. Ojo: 0,50 $ de su BPA vienen de devoluciones de aranceles.",
+   "lvl": "Mantener el hueco al alza",
    "ev": "—",
-   "quip": "En defensa, mejor no estar a la defensiva con la Fiscalía."
+   "quip": "Esta vez la diana sí acertó."
   },
   {
    "n": "Repsol",
+   "m": "es",
+   "tag": "Cae un 6 %",
+   "p": "—",
+   "v15": "no",
+   "v1m": "wait",
+   "why": "Se dejó más de un 6 % el miércoles y fue la peor del IBEX, con el petróleo y las materias primas a la baja.",
+   "lvl": "Esperar a que se estabilice el crudo",
+   "ev": "Sigue al Brent",
+   "quip": "Lo que el barril da, el barril quita."
+  },
+  {
+   "n": "IAG",
    "m": "es",
    "tag": "En verde ayer",
    "p": "—",
    "v15": "wait",
    "v1m": "in",
-   "why": "Uno de los cuatro valores del IBEX que subió el martes (+0,89 %), apoyado en el petróleo y las tensiones en Oriente Medio.",
-   "lvl": "Sigue al Brent",
+   "why": "Una de las dos únicas subidas del IBEX el miércoles (+0,37 %). El petróleo más barato alivia su factura de combustible.",
+   "lvl": "—",
    "ev": "—",
-   "quip": "Cuando todo cae, el barril sostiene."
+   "quip": "Crudo barato, aviones contentos."
   }
  ],
  "events": [
-  {
-   "d": "2026-11-18",
-   "t": "Actas de la Fed",
-   "s": "Pistas para la reunión de diciembre"
-  },
   {
    "d": "2026-11-25",
    "t": "PCE de EE. UU.",
@@ -332,31 +283,31 @@
   },
   {
    "d": "2026-11-18",
-   "h": "sin hora",
+   "h": "antes de abrir",
    "n": "Lowe's",
    "c": "US",
-   "s": "Bricolaje"
+   "s": "BPA ajustado 3,10 $ vs 2,88 $ esperado · +1 %"
   },
   {
    "d": "2026-11-18",
    "h": "sin hora",
    "n": "TJX",
    "c": "US",
-   "s": "Moda a precio de saldo"
+   "s": "Ingresos 15.950 M$, bate previsiones · +8 %"
   },
   {
    "d": "2026-11-18",
    "h": "sin hora",
    "n": "Target",
    "c": "US",
-   "s": "Grandes almacenes"
+   "s": "Mejor crecimiento de ventas en 5 años y mejora previsión · +4 %"
   },
   {
    "d": "2026-11-18",
    "h": "sin hora",
    "n": "Palo Alto Networks",
    "c": "US",
-   "s": "Ciberseguridad"
+   "s": "Bate previsiones tras el cierre"
   },
   {
    "d": "2026-11-19",
