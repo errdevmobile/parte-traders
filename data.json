@@ -1,100 +1,82 @@
 {
- "edition": "Lunes 23 nov 2026 · 7:00",
- "editionDate": "2026-11-23",
+ "edition": "Martes 24 nov 2026 · 7:00",
+ "editionDate": "2026-11-24",
  "draft": "",
  "mood": {
-  "light": "r",
-  "title": "Corrección oficial",
-  "text": "El S&P 500 y el Dow han caído más de un 10 % desde máximos y el IBEX encadena cinco sesiones en rojo. Con elecciones el domingo y una semana corta en EE. UU., toca proteger capital y no perseguir rebotes."
+  "light": "a",
+  "title": "Rebote fuerte, nervios intactos",
+  "text": "El regreso de Jensen Huang a Nvidia disparó a Wall Street y el IBEX cortó cinco días de caídas. Pero un rebote de un día no borra una corrección: hoy Dell y Workday ponen a prueba la IA y el software, y el domingo hay elecciones."
  },
  "meme": {
-  "top": "Yo el lunes pasado: «es solo una corrección sana»",
-  "bottom": "El viernes: −8,6 % en la semana",
+  "top": "Viernes: «la IA está muerta»",
+  "bottom": "Lunes: Nasdaq +6,5 %",
   "tag": "meme del día",
-  "mood": "r"
+  "mood": "g"
  },
  "meme2": {
-  "top": "Mercado en corrección",
-  "bottom": "El plan sigue siendo el plan",
+  "top": "Un día de subidas",
+  "bottom": "No es una tendencia",
   "tag": "sabiduría ancestral",
   "mood": "a"
  },
  "ticks": [
   {
    "n": "IBEX 35",
-   "v": "18.873,1",
-   "c": -1.63
+   "v": "19.181,1",
+   "c": 1.63
   },
   {
    "n": "DAX",
-   "v": "24.802,8",
-   "c": -2.6
+   "v": "25.337,3",
+   "c": 2.15
   },
   {
    "n": "Euro Stoxx 50",
-   "v": "5.942,0",
-   "c": -2.81
+   "v": "6.074,5",
+   "c": 2.23
+  },
+  {
+   "n": "CAC 40",
+   "v": "8.045",
+   "c": 1.48
   },
   {
    "n": "S&P 500",
-   "v": "6.910,4",
-   "c": -3.7
+   "v": "7.237,2",
+   "c": 4.73
   },
   {
    "n": "Nasdaq",
-   "v": "22.617,7",
-   "c": -5.28
+   "v": "24.089,6",
+   "c": 6.51
   },
   {
    "n": "Dow Jones",
-   "v": "48.147,3",
-   "c": -1.93
+   "v": "49.595,3",
+   "c": 3.01
+  },
+  {
+   "n": "Fut. S&P 500",
+   "v": "7.287",
+   "c": 0.45
   }
  ],
- "ticksNote": "Cierres del viernes 20. CAC 40 y futuros: sin dato fiable a esta hora.",
+ "ticksNote": "Cierres del lunes 23. Futuro del S&P 500 tras el cierre de Wall Street. Futuros del IBEX: sin dato fiable a esta hora.",
  "today": [
-  "<b>Semana negra en Wall Street:</b> el viernes el S&P 500 cayó un 3,7 % y el Nasdaq un 5,28 %. El S&P 500 y el Dow entran en corrección (−10 % desde máximos) y el Nasdaq ya pierde en el año.",
-  "<b>IBEX, cinco sesiones en rojo:</b> −1,63 % el viernes hasta 18.873,1 y −5,7 % en la semana. El DAX cayó un 2,6 % y el Euro Stoxx 50 un 2,8 %.",
-  "<b>La IA, en el centro:</b> Nvidia se dejó en torno a un 14 % y Anthropic perdió un 8,5 % en su segundo día tras el +17 % del debut.",
-  "<b>Walmart e Intuit:</b> Walmart batió y subió previsiones, pero bajó un 1 %. Intuit batió pero rebajó su previsión y se hundió cerca de un 12 %.",
-  "<b>Semana corta:</b> resultados de Zoom (hoy), Dell, Workday y HP (martes) y Deere (miércoles). El jueves 26 Wall Street cierra. El domingo 29, elecciones generales en España."
+  "<b>Rebote histórico en Wall Street:</b> el Nasdaq sube un 6,51 % (mejor día desde abril de 2025), el S&P 500 un 4,73 % y el Dow un 3 % (+1.448 puntos).",
+  "<b>Vuelve Jensen Huang:</b> Nvidia lo restituye como consejero delegado y la acción se dispara más de un 30 %.",
+  "<b>IBEX corta la racha:</b> +1,63 % hasta 19.181,1 tras cinco caídas. ArcelorMittal (+5,34 %), ACS e Indra lideran; Repsol cae un 2,25 % con el crudo.",
+  "<b>Resultados de anoche:</b> HPE bate con ingresos +50 % pero cae fuera de hora tras subir un 17 %; Zoom bate y sube previsión, pero la acción queda plana.",
+  "<b>Hoy, día grande:</b> Medtronic, Analog Devices, Best Buy y Dollar Tree antes de abrir; Dell, Workday, HP y Autodesk tras el cierre. Mañana, PCE y Deere."
  ],
- "quote": "En una corrección, el que tiene liquidez y paciencia tiene ventaja.",
+ "quote": "Los rebotes más fuertes llegan en los mercados más nerviosos.",
  "stocks": [
-  {
-   "n": "Zoom",
-   "m": "us",
-   "c": "US",
-   "earn": "2026-11-23",
-   "tag": "Resultados lun ≈22:00",
-   "p": "—",
-   "v15": "wait",
-   "v1m": "wait",
-   "why": "Abre la semana tras el cierre de hoy. En plena venta de tecnología, el mercado castiga cualquier previsión floja, como le pasó a Intuit.",
-   "lvl": "Reacción a los resultados",
-   "ev": "Resultados 23 nov · ≈22:00",
-   "quip": "Primera videollamada de la semana: cámara encendida."
-  },
-  {
-   "n": "Hewlett Packard Enterprise",
-   "m": "us",
-   "c": "US",
-   "earn": "2026-11-23",
-   "tag": "Resultados lun ≈22:00",
-   "p": "—",
-   "v15": "wait",
-   "v1m": "wait",
-   "why": "Vende servidores para IA: sus cifras dirán si la demanda aguanta tras la semana negra de los chips.",
-   "lvl": "Reacción a los resultados",
-   "ev": "Resultados 23 nov · ≈22:00",
-   "quip": "Primero los números, luego la apuesta."
-  },
   {
    "n": "Medtronic",
    "m": "us",
    "c": "US",
    "earn": "2026-11-24",
-   "tag": "Resultados mar antes de abrir",
+   "tag": "Resultados hoy antes de abrir",
    "p": "—",
    "v15": "wait",
    "v1m": "wait",
@@ -108,7 +90,7 @@
    "m": "us",
    "c": "US",
    "earn": "2026-11-24",
-   "tag": "Resultados mar antes de abrir",
+   "tag": "Resultados hoy antes de abrir",
    "p": "—",
    "v15": "wait",
    "v1m": "wait",
@@ -122,7 +104,7 @@
    "m": "us",
    "c": "US",
    "earn": "2026-11-24",
-   "tag": "Resultados mar antes de abrir",
+   "tag": "Resultados hoy antes de abrir",
    "p": "—",
    "v15": "wait",
    "v1m": "wait",
@@ -136,7 +118,7 @@
    "m": "us",
    "c": "US",
    "earn": "2026-11-24",
-   "tag": "Resultados mar antes de abrir",
+   "tag": "Resultados hoy antes de abrir",
    "p": "—",
    "v15": "wait",
    "v1m": "wait",
@@ -150,7 +132,7 @@
    "m": "us",
    "c": "US",
    "earn": "2026-11-24",
-   "tag": "Resultados mar ≈22:00",
+   "tag": "Resultados hoy ≈22:00",
    "p": "—",
    "v15": "wait",
    "v1m": "wait",
@@ -164,7 +146,7 @@
    "m": "us",
    "c": "US",
    "earn": "2026-11-24",
-   "tag": "Resultados mar ≈22:00",
+   "tag": "Resultados hoy ≈22:00",
    "p": "—",
    "v15": "wait",
    "v1m": "wait",
@@ -178,7 +160,7 @@
    "m": "us",
    "c": "US",
    "earn": "2026-11-24",
-   "tag": "Resultados mar ≈22:00",
+   "tag": "Resultados hoy ≈22:00",
    "p": "—",
    "v15": "wait",
    "v1m": "wait",
@@ -192,7 +174,7 @@
    "m": "us",
    "c": "US",
    "earn": "2026-11-24",
-   "tag": "Resultados mar ≈22:00",
+   "tag": "Resultados hoy ≈22:00",
    "p": "—",
    "v15": "wait",
    "v1m": "wait",
@@ -219,79 +201,66 @@
    "n": "Nvidia",
    "m": "us",
    "c": "US",
-   "tag": "Cae un 14 %",
+   "tag": "Vuelve Jensen Huang",
    "p": "—",
-   "v15": "no",
-   "v1m": "wait",
-   "why": "Perdió en torno a un 14 % el viernes y arrastró al Nasdaq (−5,28 %), que ya está en negativo en el año. No intentar adivinar el suelo.",
-   "lvl": "Esperar a que se estabilice",
+   "v15": "wait",
+   "v1m": "in",
+   "why": "Se disparó más de un 30 % el lunes tras restituir a Jensen Huang como consejero delegado y arrastró al Nasdaq a su mejor día desde abril de 2025. Tras un movimiento así, mejor esperar a que se asiente.",
+   "lvl": "Consolidar el hueco al alza",
    "ev": "—",
-   "quip": "El rey de la IA también sangra."
+   "quip": "El jefe vuelve y la acción también."
   },
   {
-   "n": "Intuit",
+   "n": "Hewlett Packard Enterprise",
    "m": "us",
    "c": "US",
-   "tag": "Cae un 12 % tras resultados",
-   "p": "—",
-   "v15": "no",
-   "v1m": "wait",
-   "why": "Batió previsiones (BPA 2,91 $ vs 2,70 $; ingresos 4.350 M$), pero rebajó su previsión de ingresos y la acción se hundió cerca de un 12 % el viernes.",
-   "lvl": "Esperar a ver suelo",
-   "ev": "—",
-   "quip": "Batir y caer: el nuevo deporte del software."
-  },
-  {
-   "n": "Anthropic",
-   "m": "us",
-   "c": "US",
-   "tag": "Cae un 8,5 %",
-   "p": "—",
-   "v15": "no",
-   "v1m": "wait",
-   "why": "Devolvió buena parte de la subida de su debut: −8,5 % el viernes tras el +17 % del jueves.",
-   "lvl": "Precio de salida: 83 $",
-   "ev": "—",
-   "quip": "Segundo día en bolsa: bienvenido al mundo real."
-  },
-  {
-   "n": "Banco Santander",
-   "m": "es",
-   "c": "ES",
-   "tag": "Elecciones el domingo",
+   "tag": "Resultados récord",
    "p": "—",
    "v15": "wait",
    "v1m": "wait",
-   "why": "La banca lastró al IBEX el viernes y las elecciones generales del domingo 29 pueden mover al sector. Mejor esperar al resultado.",
-   "lvl": "—",
-   "ev": "Elecciones 29 nov",
-   "quip": "Primero las urnas, luego las órdenes."
-  },
-  {
-   "n": "Inditex",
-   "m": "es",
-   "c": "ES",
-   "tag": "Resultados 2 dic",
-   "p": "—",
-   "v15": "wait",
-   "v1m": "wait",
-   "why": "Presenta sus nueve meses el 2 de diciembre. Walmart subió previsiones y aun así bajó: el mercado exige mucho al consumo.",
-   "lvl": "—",
-   "ev": "Resultados 2 dic",
-   "quip": "Temporada de rebajas… en bolsa."
+   "why": "Subió un 17 % el lunes y presentó tras el cierre: ingresos de 14.550 M$ (+50 %), BPA de 1,43 $ frente a 1,28 $ esperado y dividendo +19 %. Aun así cae cerca de un 7 % fuera de hora.",
+   "lvl": "Reacción en la apertura",
+   "ev": "—",
+   "quip": "Récord en la cuenta, recogida de beneficios en la acción."
   },
   {
    "n": "ArcelorMittal",
    "m": "es",
    "c": "ES",
-   "tag": "Acereras a la baja",
+   "tag": "Lidera el rebote",
+   "p": "—",
+   "v15": "wait",
+   "v1m": "wait",
+   "why": "Fue la mejor del IBEX el lunes (+5,34 %) tras caer con las acereras el viernes. Rebote fuerte: esperar a ver si aguanta.",
+   "lvl": "—",
+   "ev": "—",
+   "quip": "El acero se endereza."
+  },
+  {
+   "n": "Indra",
+   "m": "es",
+   "c": "ES",
+   "tag": "Sube un 3,8 %",
+   "p": "—",
+   "v15": "wait",
+   "v1m": "wait",
+   "why": "Entre las que tiraron del IBEX el lunes (+3,76 %), junto a ACS (+3,99 %) e IAG (+3,70 %).",
+   "lvl": "—",
+   "ev": "Elecciones 29 nov",
+   "quip": "Defensa y tecnología, a todo gas."
+  },
+  {
+   "n": "Repsol",
+   "m": "es",
+   "c": "ES",
+   "tag": "Cae con el crudo",
    "p": "—",
    "v15": "no",
    "v1m": "wait",
-   "why": "Las acereras presionaron al IBEX el viernes, que cerró su quinta sesión seguida en rojo (−5,7 % en la semana).",
-   "lvl": "Esperar a que se estabilice",
-   "ev": "—",
-   "quip": "El acero también se dobla."
+   "why": "La peor del IBEX el lunes (−2,25 %) por la caída del petróleo, en un día de rebote general.",
+   "lvl": "Esperar a que se estabilice el crudo",
+   "ev": "Sigue al Brent",
+   "quip": "Cuando todos suben y tú bajas, mira el barril."
   }
  ],
  "events": [
@@ -388,14 +357,15 @@
    "h": "≈22:00",
    "n": "Zoom",
    "c": "US",
-   "s": "Videollamadas e IA para empresas"
+   "s": "BPA 1,59 $ vs 1,49 $ esperado y sube previsión · plano tras el cierre"
   },
   {
    "d": "2026-11-23",
    "h": "≈22:00",
    "n": "Hewlett Packard Enterprise",
    "c": "US",
-   "s": "Servidores y redes"
+   "s": "Ingresos 14.550 M$ (+50 %) y BPA 1,43 $ vs 1,28 $ · −7 % fuera de hora tras subir un 17 %",
+   "hot": true
   },
   {
    "d": "2026-11-24",
