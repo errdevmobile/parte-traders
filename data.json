@@ -1,266 +1,152 @@
 {
- "edition": "Martes 24 nov 2026 · 7:00",
- "editionDate": "2026-11-24",
+ "edition": "Miércoles 25 nov 2026 · 7:00",
+ "editionDate": "2026-11-25",
  "draft": "",
  "mood": {
-  "light": "a",
-  "title": "Rebote fuerte, nervios intactos",
-  "text": "El regreso de Jensen Huang a Nvidia disparó a Wall Street y el IBEX cortó cinco días de caídas. Pero un rebote de un día no borra una corrección: hoy Dell y Workday ponen a prueba la IA y el software, y el domingo hay elecciones."
+  "light": "r",
+  "title": "La IA vuelve a pinchar",
+  "text": "El rebote del lunes duró un día: los chips cayeron con fuerza y el Nasdaq volvió a ceder. Dell trae alivio esta madrugada, pero hoy llega el PCE, mañana Wall Street cierra y el domingo hay elecciones. Prudencia."
  },
  "meme": {
-  "top": "Viernes: «la IA está muerta»",
-  "bottom": "Lunes: Nasdaq +6,5 %",
+  "top": "Lunes: «compra la caída»",
+  "bottom": "Martes: la caída te compra a ti",
   "tag": "meme del día",
-  "mood": "g"
+  "mood": "r"
  },
  "meme2": {
-  "top": "Un día de subidas",
-  "bottom": "No es una tendencia",
+  "top": "Puente en EE. UU. y elecciones en España",
+  "bottom": "Menos posiciones, más sueño",
   "tag": "sabiduría ancestral",
   "mood": "a"
  },
  "ticks": [
   {
    "n": "IBEX 35",
-   "v": "19.181,1",
-   "c": 1.63
+   "v": "19.015,8",
+   "c": -0.86
   },
   {
    "n": "DAX",
-   "v": "25.337,3",
-   "c": 2.15
-  },
-  {
-   "n": "Euro Stoxx 50",
-   "v": "6.074,5",
-   "c": 2.23
-  },
-  {
-   "n": "CAC 40",
-   "v": "8.045",
-   "c": 1.48
+   "v": "25.017,8",
+   "c": -1.26
   },
   {
    "n": "S&P 500",
-   "v": "7.237,2",
-   "c": 4.73
+   "v": "7.201,1",
+   "c": -0.5
   },
   {
    "n": "Nasdaq",
-   "v": "24.089,6",
-   "c": 6.51
+   "v": "23.733,5",
+   "c": -1.48
   },
   {
    "n": "Dow Jones",
-   "v": "49.595,3",
-   "c": 3.01
-  },
-  {
-   "n": "Fut. S&P 500",
-   "v": "7.287",
-   "c": 0.45
+   "v": "50.018,7",
+   "c": 0.85
   }
  ],
- "ticksNote": "Cierres del lunes 23. Futuro del S&P 500 tras el cierre de Wall Street. Futuros del IBEX: sin dato fiable a esta hora.",
+ "ticksNote": "Cierres del martes 24. Euro Stoxx 50, CAC 40 y futuros: sin dato fiable a esta hora.",
  "today": [
-  "<b>Rebote histórico en Wall Street:</b> el Nasdaq sube un 6,51 % (mejor día desde abril de 2025), el S&P 500 un 4,73 % y el Dow un 3 % (+1.448 puntos).",
-  "<b>Vuelve Jensen Huang:</b> Nvidia lo restituye como consejero delegado y la acción se dispara más de un 30 %.",
-  "<b>IBEX corta la racha:</b> +1,63 % hasta 19.181,1 tras cinco caídas. ArcelorMittal (+5,34 %), ACS e Indra lideran; Repsol cae un 2,25 % con el crudo.",
-  "<b>Resultados de anoche:</b> HPE bate con ingresos +50 % pero cae fuera de hora tras subir un 17 %; Zoom bate y sube previsión, pero la acción queda plana.",
-  "<b>Hoy, día grande:</b> Medtronic, Analog Devices, Best Buy y Dollar Tree antes de abrir; Dell, Workday, HP y Autodesk tras el cierre. Mañana, PCE y Deere."
+  "<b>Se apaga el rebote de la IA:</b> el Nasdaq cae un 1,48 % y el S&P 500 un 0,5 % (ocho caídas en nueve sesiones). Nvidia pierde un 5,9 % y Anthropic vuelve por debajo de su precio de salida.",
+  "<b>El Dow, en cambio, recupera los 50.000:</b> +0,85 % hasta 50.018,7, con salud, consumo y valores fuera de la tecnología al alza.",
+  "<b>IBEX −0,86 % hasta 19.015,8:</b> ArcelorMittal (−7,65 %) y Acerinox lideran las caídas; Cellnex, Telefónica y Redeia, las subidas.",
+  "<b>Resultados de anoche:</b> Dell bate con ingresos récord y sube fuera de hora; HP también sube. Workday (−7 %) y Autodesk (−4 %) caen pese a batir.",
+  "<b>Hoy, último día antes del festivo:</b> PCE de EE. UU. y resultados de Deere antes de la apertura. Mañana jueves Wall Street cierra por Acción de Gracias."
  ],
- "quote": "Los rebotes más fuertes llegan en los mercados más nerviosos.",
+ "quote": "Cuando el mercado cambia de opinión cada día, la mejor posición puede ser la liquidez.",
  "stocks": [
-  {
-   "n": "Medtronic",
-   "m": "us",
-   "c": "US",
-   "earn": "2026-11-24",
-   "tag": "Resultados hoy antes de abrir",
-   "p": "—",
-   "v15": "wait",
-   "v1m": "wait",
-   "why": "Valor defensivo de salud; en días de miedo suele aguantar mejor, pero no conviene entrar antes de las cifras.",
-   "lvl": "Reacción a los resultados",
-   "ev": "Resultados 24 nov · antes de abrir",
-   "quip": "Primero los números, luego la apuesta."
-  },
-  {
-   "n": "Analog Devices",
-   "m": "us",
-   "c": "US",
-   "earn": "2026-11-24",
-   "tag": "Resultados hoy antes de abrir",
-   "p": "—",
-   "v15": "wait",
-   "v1m": "wait",
-   "why": "Chips industriales y de coche. Tras la caída de los semiconductores el viernes, su previsión pesará en todo el sector.",
-   "lvl": "Reacción a los resultados",
-   "ev": "Resultados 24 nov · antes de abrir",
-   "quip": "Primero los números, luego la apuesta."
-  },
-  {
-   "n": "Best Buy",
-   "m": "us",
-   "c": "US",
-   "earn": "2026-11-24",
-   "tag": "Resultados hoy antes de abrir",
-   "p": "—",
-   "v15": "wait",
-   "v1m": "wait",
-   "why": "Termómetro del consumo antes del Black Friday.",
-   "lvl": "Reacción a los resultados",
-   "ev": "Resultados 24 nov · antes de abrir",
-   "quip": "Primero los números, luego la apuesta."
-  },
-  {
-   "n": "Dollar Tree",
-   "m": "us",
-   "c": "US",
-   "earn": "2026-11-24",
-   "tag": "Resultados hoy antes de abrir",
-   "p": "—",
-   "v15": "wait",
-   "v1m": "wait",
-   "why": "Tiendas baratas: dirá cuánto aprieta el bolsillo al consumidor de rentas bajas.",
-   "lvl": "Reacción a los resultados",
-   "ev": "Resultados 24 nov · antes de abrir",
-   "quip": "Primero los números, luego la apuesta."
-  },
-  {
-   "n": "Dell",
-   "m": "us",
-   "c": "US",
-   "earn": "2026-11-24",
-   "tag": "Resultados hoy ≈22:00",
-   "p": "—",
-   "v15": "wait",
-   "v1m": "wait",
-   "why": "La gran prueba de la semana para la IA: sus servidores son la otra cara de Nvidia.",
-   "lvl": "Reacción a los resultados",
-   "ev": "Resultados 24 nov · ≈22:00",
-   "quip": "Si Dell tose, la IA se resfría."
-  },
-  {
-   "n": "Workday",
-   "m": "us",
-   "c": "US",
-   "earn": "2026-11-24",
-   "tag": "Resultados hoy ≈22:00",
-   "p": "—",
-   "v15": "wait",
-   "v1m": "wait",
-   "why": "El software lleva semanas castigado (Intuit −12 % el viernes); una previsión floja se pagaría caro.",
-   "lvl": "Reacción a los resultados",
-   "ev": "Resultados 24 nov · ≈22:00",
-   "quip": "Lunes a viernes de nervios para el software."
-  },
-  {
-   "n": "HP",
-   "m": "us",
-   "c": "US",
-   "earn": "2026-11-24",
-   "tag": "Resultados hoy ≈22:00",
-   "p": "—",
-   "v15": "wait",
-   "v1m": "wait",
-   "why": "PC e impresoras; sensible a los costes de memoria y a los aranceles.",
-   "lvl": "Reacción a los resultados",
-   "ev": "Resultados 24 nov · ≈22:00",
-   "quip": "Primero los números, luego la apuesta."
-  },
-  {
-   "n": "Autodesk",
-   "m": "us",
-   "c": "US",
-   "earn": "2026-11-24",
-   "tag": "Resultados hoy ≈22:00",
-   "p": "—",
-   "v15": "wait",
-   "v1m": "wait",
-   "why": "Software de diseño; misma presión que el resto del software.",
-   "lvl": "Reacción a los resultados",
-   "ev": "Resultados 24 nov · ≈22:00",
-   "quip": "Primero los números, luego la apuesta."
-  },
   {
    "n": "Deere",
    "m": "us",
    "c": "US",
    "earn": "2026-11-25",
-   "tag": "Resultados mié antes de abrir",
+   "tag": "Resultados hoy antes de abrir",
    "p": "—",
    "v15": "wait",
    "v1m": "wait",
-   "why": "Maquinaria agrícola; suele marcar el tono del sector industrial.",
+   "why": "Presenta hoy antes de la apertura de Wall Street. Maquinaria agrícola: marca el tono del sector industrial, que ayer fue de lo poco que aguantó mientras caía la tecnología.",
    "lvl": "Reacción a los resultados",
    "ev": "Resultados 25 nov · antes de abrir",
    "quip": "Sembrar ahora, cosechar con paciencia."
   },
   {
-   "n": "Nvidia",
+   "n": "Dell",
    "m": "us",
    "c": "US",
-   "tag": "Vuelve Jensen Huang",
+   "tag": "Bate con fuerza",
    "p": "—",
    "v15": "wait",
    "v1m": "in",
-   "why": "Se disparó más de un 30 % el lunes tras restituir a Jensen Huang como consejero delegado y arrastró al Nasdaq a su mejor día desde abril de 2025. Tras un movimiento así, mejor esperar a que se asiente.",
-   "lvl": "Consolidar el hueco al alza",
+   "why": "Ingresos récord de 54.940 M$ (49.320 M$ esperados), BPA de 9,45 $ frente a 6,59 $ y previsión al alza. Sube fuera de hora tras caer casi un 12 % en la sesión.",
+   "lvl": "Recuperar la caída del martes",
    "ev": "—",
-   "quip": "El jefe vuelve y la acción también."
+   "quip": "Los servidores de IA siguen vendiéndose solos."
   },
   {
-   "n": "Hewlett Packard Enterprise",
+   "n": "Workday",
    "m": "us",
    "c": "US",
-   "tag": "Resultados récord",
+   "tag": "−7 % fuera de hora",
    "p": "—",
-   "v15": "wait",
+   "v15": "no",
    "v1m": "wait",
-   "why": "Subió un 17 % el lunes y presentó tras el cierre: ingresos de 14.550 M$ (+50 %), BPA de 1,43 $ frente a 1,28 $ esperado y dividendo +19 %. Aun así cae cerca de un 7 % fuera de hora.",
-   "lvl": "Reacción en la apertura",
+   "why": "Batió previsiones, pero su previsión de suscripciones para el cuarto trimestre decepcionó y cae alrededor de un 7 % fuera de hora. Otro aviso para el software.",
+   "lvl": "Esperar a ver suelo",
    "ev": "—",
-   "quip": "Récord en la cuenta, recogida de beneficios en la acción."
+   "quip": "Batir ya no basta: el software necesita milagros."
+  },
+  {
+   "n": "Analog Devices",
+   "m": "us",
+   "c": "US",
+   "tag": "−17 % pese al récord",
+   "p": "—",
+   "v15": "no",
+   "v1m": "wait",
+   "why": "Trimestre récord y aun así se hundió un 17 % en un día de ventas en chips: el índice de semiconductores cayó más de un 8 %.",
+   "lvl": "Esperar a que se estabilicen los chips",
+   "ev": "—",
+   "quip": "Récord en la cuenta, castigo en la bolsa."
   },
   {
    "n": "ArcelorMittal",
    "m": "es",
    "c": "ES",
-   "tag": "Lidera el rebote",
-   "p": "—",
-   "v15": "wait",
-   "v1m": "wait",
-   "why": "Fue la mejor del IBEX el lunes (+5,34 %) tras caer con las acereras el viernes. Rebote fuerte: esperar a ver si aguanta.",
-   "lvl": "—",
-   "ev": "—",
-   "quip": "El acero se endereza."
-  },
-  {
-   "n": "Indra",
-   "m": "es",
-   "c": "ES",
-   "tag": "Sube un 3,8 %",
-   "p": "—",
-   "v15": "wait",
-   "v1m": "wait",
-   "why": "Entre las que tiraron del IBEX el lunes (+3,76 %), junto a ACS (+3,99 %) e IAG (+3,70 %).",
-   "lvl": "—",
-   "ev": "Elecciones 29 nov",
-   "quip": "Defensa y tecnología, a todo gas."
-  },
-  {
-   "n": "Repsol",
-   "m": "es",
-   "c": "ES",
-   "tag": "Cae con el crudo",
+   "tag": "−7,7 % tras el rebote",
    "p": "—",
    "v15": "no",
    "v1m": "wait",
-   "why": "La peor del IBEX el lunes (−2,25 %) por la caída del petróleo, en un día de rebote general.",
-   "lvl": "Esperar a que se estabilice el crudo",
-   "ev": "Sigue al Brent",
-   "quip": "Cuando todos suben y tú bajas, mira el barril."
+   "why": "Pasó de liderar el IBEX el lunes (+5,34 %) a ser la peor el martes (−7,65 %), junto a Acerinox (−4,36 %). Mucha volatilidad: mejor fuera.",
+   "lvl": "—",
+   "ev": "—",
+   "quip": "Montaña rusa de acero."
+  },
+  {
+   "n": "Cellnex",
+   "m": "es",
+   "c": "ES",
+   "tag": "Lidera el IBEX",
+   "p": "—",
+   "v15": "wait",
+   "v1m": "in",
+   "why": "La mejor del IBEX el martes (+3,02 %) en un día de rotación hacia valores defensivos, junto a Telefónica y Redeia.",
+   "lvl": "—",
+   "ev": "Elecciones 29 nov",
+   "quip": "Cuando la IA tiembla, las torres aguantan."
+  },
+  {
+   "n": "Telefónica",
+   "m": "es",
+   "c": "ES",
+   "tag": "Sube un 2,6 %",
+   "p": "—",
+   "v15": "wait",
+   "v1m": "wait",
+   "why": "Segunda mejor del IBEX el martes (+2,56 %), tras caer un 1,31 % el lunes. El dinero busca refugio en valores defensivos.",
+   "lvl": "—",
+   "ev": "Elecciones 29 nov",
+   "quip": "De vuelta al teléfono fijo de la bolsa."
   }
  ],
  "events": [
@@ -372,14 +258,14 @@
    "h": "antes de abrir",
    "n": "Medtronic",
    "c": "US",
-   "s": "Tecnología médica"
+   "s": "BPA 1,34 $ (en línea) pero ingresos 9.400 M$, por debajo · −4,5 %"
   },
   {
    "d": "2026-11-24",
    "h": "antes de abrir",
    "n": "Analog Devices",
    "c": "US",
-   "s": "Chips analógicos",
+   "s": "Trimestre récord (ingresos 4.370 M$, BPA 4,06 $ vs 3,89 $) y aun así −17 %",
    "hot": true
   },
   {
@@ -387,21 +273,21 @@
    "h": "antes de abrir",
    "n": "Best Buy",
    "c": "US",
-   "s": "Electrónica de consumo"
+   "s": "Bate: BPA 1,62 $ vs 1,49 $ e ingresos 10.240 M$ · reacción por confirmar"
   },
   {
    "d": "2026-11-24",
    "h": "antes de abrir",
    "n": "Dollar Tree",
    "c": "US",
-   "s": "Tiendas de bajo coste"
+   "s": "Bate con holgura (BPA 1,16 $ vs 0,91 $) · +11 %"
   },
   {
    "d": "2026-11-24",
    "h": "≈22:00",
    "n": "Dell",
    "c": "US",
-   "s": "Servidores para IA",
+   "s": "Ingresos récord de 54.940 M$ y BPA 9,45 $ vs 6,59 $; sube previsión · sube fuera de hora tras caer un 12 %",
    "hot": true
   },
   {
@@ -409,22 +295,21 @@
    "h": "≈22:00",
    "n": "Workday",
    "c": "US",
-   "s": "Software de RR. HH.",
-   "hot": true
+   "s": "Bate, pero decepciona su previsión de suscripciones · −7 % fuera de hora"
   },
   {
    "d": "2026-11-24",
    "h": "≈22:00",
    "n": "HP",
    "c": "US",
-   "s": "PC e impresoras"
+   "s": "Ingresos 16.000 M$ vs 15.420 M$ esperado · sube fuera de hora"
   },
   {
    "d": "2026-11-24",
    "h": "≈22:00",
    "n": "Autodesk",
    "c": "US",
-   "s": "Software de diseño"
+   "s": "Bate y sube previsión · −4 % fuera de hora"
   },
   {
    "d": "2026-11-25",
@@ -436,5 +321,5 @@
   }
  ],
  "earningsNote": "Hora de España. «Antes de abrir» = antes de las 15:30; «≈22:00» = tras el cierre de Wall Street. El jueves 26 Wall Street cierra por Acción de Gracias y el viernes 27 tiene sesión corta. Bandera y siglas: país de la sede.",
- "stocksNote": "Primero, todas las empresas que presentan resultados de hoy a viernes (todas de EE. UU. esta semana). Después, otros valores de España y EE. UU. con un motivo concreto hoy. Sin precios: no hay dato fiable a esta hora."
+ "stocksNote": "Primero, las empresas que presentan resultados de hoy a viernes (solo Deere; el jueves Wall Street cierra). Después, otros valores de España y EE. UU. con un motivo concreto hoy. Sin precios: no hay dato fiable a esta hora."
 }
