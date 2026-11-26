@@ -1,160 +1,138 @@
 {
- "edition": "Miércoles 25 nov 2026 · 7:00",
- "editionDate": "2026-11-25",
+ "edition": "Jueves 26 nov 2026 · 7:00",
+ "editionDate": "2026-11-26",
  "draft": "",
  "mood": {
   "light": "r",
-  "title": "La IA vuelve a pinchar",
-  "text": "El rebote del lunes duró un día: los chips cayeron con fuerza y el Nasdaq volvió a ceder. Dell trae alivio esta madrugada, pero hoy llega el PCE, mañana Wall Street cierra y el domingo hay elecciones. Prudencia."
+  "title": "Festivo en EE. UU., nervios en Europa",
+  "text": "El IBEX cae a mínimos de tres meses por la banca, los aranceles y la inflación. Hoy Wall Street no abre y el domingo hay elecciones: día de poco volumen en el que conviene no forzar operaciones."
  },
  "meme": {
-  "top": "Lunes: «compra la caída»",
-  "bottom": "Martes: la caída te compra a ti",
+  "top": "Wall Street: «hoy cerramos, toca pavo»",
+  "bottom": "El IBEX: «yo también quiero puente»",
   "tag": "meme del día",
-  "mood": "r"
+  "mood": "a"
  },
  "meme2": {
-  "top": "Puente en EE. UU. y elecciones en España",
-  "bottom": "Menos posiciones, más sueño",
+  "top": "Poco volumen y elecciones a la vista",
+  "bottom": "La paciencia también cotiza",
   "tag": "sabiduría ancestral",
   "mood": "a"
  },
  "ticks": [
   {
    "n": "IBEX 35",
-   "v": "19.015,8",
-   "c": -0.86
+   "v": "18.635,8",
+   "c": -2.0
   },
   {
    "n": "DAX",
-   "v": "25.017,8",
+   "v": "24.702,1",
    "c": -1.26
   },
   {
+   "n": "Euro Stoxx 50",
+   "v": "5.894,5",
+   "c": -1.82
+  },
+  {
+   "n": "CAC 40",
+   "v": "7.980,6",
+   "c": -0.75
+  },
+  {
    "n": "S&P 500",
-   "v": "7.201,1",
-   "c": -0.5
+   "v": "7.182,8",
+   "c": -0.25
   },
   {
    "n": "Nasdaq",
-   "v": "23.733,5",
-   "c": -1.48
+   "v": "23.585,8",
+   "c": -0.62
   },
   {
    "n": "Dow Jones",
-   "v": "50.018,7",
-   "c": 0.85
+   "v": "50.183,0",
+   "c": 0.33
   }
  ],
- "ticksNote": "Cierres del martes 24. Euro Stoxx 50, CAC 40 y futuros: sin dato fiable a esta hora.",
+ "ticksNote": "Cierres del miércoles 25. Hoy Wall Street no abre (Acción de Gracias): no hay futuros de referencia.",
  "today": [
-  "<b>Se apaga el rebote de la IA:</b> el Nasdaq cae un 1,48 % y el S&P 500 un 0,5 % (ocho caídas en nueve sesiones). Nvidia pierde un 5,9 % y Anthropic vuelve por debajo de su precio de salida.",
-  "<b>El Dow, en cambio, recupera los 50.000:</b> +0,85 % hasta 50.018,7, con salud, consumo y valores fuera de la tecnología al alza.",
-  "<b>IBEX −0,86 % hasta 19.015,8:</b> ArcelorMittal (−7,65 %) y Acerinox lideran las caídas; Cellnex, Telefónica y Redeia, las subidas.",
-  "<b>Resultados de anoche:</b> Dell bate con ingresos récord y sube fuera de hora; HP también sube. Workday (−7 %) y Autodesk (−4 %) caen pese a batir.",
-  "<b>Hoy, último día antes del festivo:</b> PCE de EE. UU. y resultados de Deere antes de la apertura. Mañana jueves Wall Street cierra por Acción de Gracias."
+  "<b>Hoy Wall Street cierra por Acción de Gracias:</b> Europa sí abre. Mañana viernes, sesión corta en EE. UU.",
+  "<b>Remontada a medias en Wall Street:</b> el S&P 500 llegó a caer un 3,2 % y cerró con −0,25 %; el Nasdaq −0,62 % y el Dow +0,33 %, por encima de los 50.000.",
+  "<b>Inflación y aranceles:</b> el dato de inflación de EE. UU. volvió a preocupar y Washington plantea subir aranceles, con un 15 % para la UE.",
+  "<b>IBEX −2 % hasta 18.635,8, mínimos de tres meses:</b> la banca lideró las caídas (CaixaBank −4,19 %, Santander −3,96 %); Indra subió tras elevar sus objetivos.",
+  "<b>Deere sube un 4,5 %:</b> falló en beneficio, pero batió en ingresos y da por tocado fondo el ciclo agrícola. Inditex presenta el 2 de diciembre."
  ],
- "quote": "Cuando el mercado cambia de opinión cada día, la mejor posición puede ser la liquidez.",
+ "quote": "En los días sin volumen, el que no opera rara vez se equivoca.",
  "stocks": [
   {
    "n": "Deere",
    "m": "us",
    "c": "US",
-   "earn": "2026-11-25",
-   "tag": "Resultados hoy antes de abrir",
-   "p": "—",
-   "v15": "wait",
-   "v1m": "wait",
-   "why": "Presenta hoy antes de la apertura de Wall Street. Maquinaria agrícola: marca el tono del sector industrial, que ayer fue de lo poco que aguantó mientras caía la tecnología.",
-   "lvl": "Reacción a los resultados",
-   "ev": "Resultados 25 nov · antes de abrir",
-   "quip": "Sembrar ahora, cosechar con paciencia."
-  },
-  {
-   "n": "Dell",
-   "m": "us",
-   "c": "US",
-   "tag": "Bate con fuerza",
+   "tag": "Sube tras resultados",
    "p": "—",
    "v15": "wait",
    "v1m": "in",
-   "why": "Ingresos récord de 54.940 M$ (49.320 M$ esperados), BPA de 9,45 $ frente a 6,59 $ y previsión al alza. Sube fuera de hora tras caer casi un 12 % en la sesión.",
-   "lvl": "Recuperar la caída del martes",
-   "ev": "—",
-   "quip": "Los servidores de IA siguen vendiéndose solos."
+   "why": "Falló en beneficio (3,89 $ por acción) pero sus ingresos (12.120 M$) superaron con holgura lo esperado y dio por tocado fondo el ciclo agrícola. La acción pasó de caer antes de la apertura a cerrar con +4,5 %.",
+   "lvl": "Mantener la subida del miércoles",
+   "ev": "Wall Street cerrado hoy",
+   "quip": "El campo vuelve a sembrar."
   },
   {
-   "n": "Workday",
+   "n": "Nvidia",
    "m": "us",
    "c": "US",
-   "tag": "−7 % fuera de hora",
+   "tag": "Segundo día a la baja",
+   "p": "—",
+   "v15": "wait",
+   "v1m": "wait",
+   "why": "La IA cayó por segundo día tras el rebote del lunes por la vuelta de Jensen Huang. Con Wall Street cerrado hoy y sesión corta mañana, no hay prisa.",
+   "lvl": "—",
+   "ev": "Viernes, sesión corta",
+   "quip": "Puente largo para la IA."
+  },
+  {
+   "n": "CaixaBank",
+   "m": "es",
+   "c": "ES",
+   "tag": "Cae un 4,2 %",
    "p": "—",
    "v15": "no",
    "v1m": "wait",
-   "why": "Batió previsiones, pero su previsión de suscripciones para el cuarto trimestre decepcionó y cae alrededor de un 7 % fuera de hora. Otro aviso para el software.",
+   "why": "Encabezó las caídas del IBEX el miércoles (−4,19 %), que tocó mínimos de tres meses arrastrado por la banca.",
    "lvl": "Esperar a ver suelo",
-   "ev": "—",
-   "quip": "Batir ya no basta: el software necesita milagros."
+   "ev": "Elecciones 29 nov",
+   "quip": "La banca paga los platos rotos."
   },
   {
-   "n": "Analog Devices",
-   "m": "us",
-   "c": "US",
-   "tag": "−17 % pese al récord",
+   "n": "Banco Santander",
+   "m": "es",
+   "c": "ES",
+   "tag": "Cae un 4 %",
    "p": "—",
    "v15": "no",
    "v1m": "wait",
-   "why": "Trimestre récord y aun así se hundió un 17 % en un día de ventas en chips: el índice de semiconductores cayó más de un 8 %.",
-   "lvl": "Esperar a que se estabilicen los chips",
-   "ev": "—",
-   "quip": "Récord en la cuenta, castigo en la bolsa."
+   "why": "Se dejó un 3,96 % el miércoles. A tres días de las elecciones y con amenaza de aranceles del 15 % a la UE, la banca sufre.",
+   "lvl": "Esperar a las elecciones",
+   "ev": "Elecciones 29 nov",
+   "quip": "Las urnas primero, las órdenes después."
   },
   {
-   "n": "ArcelorMittal",
+   "n": "Indra",
    "m": "es",
    "c": "ES",
-   "tag": "−7,7 % tras el rebote",
-   "p": "—",
-   "v15": "no",
-   "v1m": "wait",
-   "why": "Pasó de liderar el IBEX el lunes (+5,34 %) a ser la peor el martes (−7,65 %), junto a Acerinox (−4,36 %). Mucha volatilidad: mejor fuera.",
-   "lvl": "—",
-   "ev": "—",
-   "quip": "Montaña rusa de acero."
-  },
-  {
-   "n": "Cellnex",
-   "m": "es",
-   "c": "ES",
-   "tag": "Lidera el IBEX",
+   "tag": "Eleva objetivos 2030",
    "p": "—",
    "v15": "wait",
    "v1m": "in",
-   "why": "La mejor del IBEX el martes (+3,02 %) en un día de rotación hacia valores defensivos, junto a Telefónica y Redeia.",
+   "why": "Fue de las pocas que subieron el miércoles tras elevar a 12.000 M€ su objetivo de ingresos para 2030 y anunciar que cuadruplicará su capacidad industrial.",
    "lvl": "—",
-   "ev": "Elecciones 29 nov",
-   "quip": "Cuando la IA tiembla, las torres aguantan."
-  },
-  {
-   "n": "Telefónica",
-   "m": "es",
-   "c": "ES",
-   "tag": "Sube un 2,6 %",
-   "p": "—",
-   "v15": "wait",
-   "v1m": "wait",
-   "why": "Segunda mejor del IBEX el martes (+2,56 %), tras caer un 1,31 % el lunes. El dinero busca refugio en valores defensivos.",
-   "lvl": "—",
-   "ev": "Elecciones 29 nov",
-   "quip": "De vuelta al teléfono fijo de la bolsa."
+   "ev": "—",
+   "quip": "Plan ambicioso, bolsa receptiva."
   }
  ],
  "events": [
-  {
-   "d": "2026-11-25",
-   "t": "PCE de EE. UU.",
-   "s": "La inflación favorita de la Fed"
-  },
   {
    "d": "2026-11-26",
    "t": "Wall Street cerrado (Acción de Gracias)",
@@ -165,11 +143,6 @@
    "t": "Elecciones generales en España",
    "s": "Atentos al lunes 30",
    "hot": true
-  },
-  {
-   "d": "2026-12-02",
-   "t": "Inditex: resultados de 9 meses",
-   "s": "Ventas del inicio del 4T"
   },
   {
    "d": "2026-12-09",
@@ -316,10 +289,18 @@
    "h": "antes de abrir",
    "n": "Deere",
    "c": "US",
-   "s": "Maquinaria agrícola",
+   "s": "BPA 3,89 $ vs ≈4,05 $ esperado, pero ingresos 12.120 M$ vs 10.340 M$; da por tocado fondo el ciclo agrícola · +4,5 %",
+   "hot": true
+  },
+  {
+   "d": "2026-12-02",
+   "h": "antes de abrir",
+   "n": "Inditex",
+   "c": "ES",
+   "s": "Nueve meses del ejercicio",
    "hot": true
   }
  ],
- "earningsNote": "Hora de España. «Antes de abrir» = antes de las 15:30; «≈22:00» = tras el cierre de Wall Street. El jueves 26 Wall Street cierra por Acción de Gracias y el viernes 27 tiene sesión corta. Bandera y siglas: país de la sede.",
- "stocksNote": "Primero, las empresas que presentan resultados de hoy a viernes (solo Deere; el jueves Wall Street cierra). Después, otros valores de España y EE. UU. con un motivo concreto hoy. Sin precios: no hay dato fiable a esta hora."
+ "earningsNote": "Hora de España. «Antes de abrir» = antes de las 15:30 en EE. UU. y antes de las 9:00 en España; «≈22:00» = tras el cierre de Wall Street. La semana que viene presentan también Salesforce, CrowdStrike, Marvell y Broadcom: las fuentes no coinciden en el día, se añadirán cuando estén confirmadas. Bandera y siglas: país de la sede.",
+ "stocksNote": "Hoy jueves y mañana viernes no presenta ninguna gran empresa, así que el radar va solo con valores de España y EE. UU. con un motivo concreto hoy. Sin precios: no hay dato fiable a esta hora."
 }
