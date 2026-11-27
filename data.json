@@ -1,44 +1,44 @@
 {
- "edition": "Jueves 26 nov 2026 · 7:00",
- "editionDate": "2026-11-26",
+ "edition": "Viernes 27 nov 2026 · 7:00",
+ "editionDate": "2026-11-27",
  "draft": "",
  "mood": {
-  "light": "r",
-  "title": "Festivo en EE. UU., nervios en Europa",
-  "text": "El IBEX cae a mínimos de tres meses por la banca, los aranceles y la inflación. Hoy Wall Street no abre y el domingo hay elecciones: día de poco volumen en el que conviene no forzar operaciones."
+  "light": "a",
+  "title": "Rebote antes de las urnas",
+  "text": "Europa recuperó terreno el jueves por el alivio con los aranceles, pero con Wall Street a medio gas hoy y elecciones el domingo, lo prudente es no cargar posiciones antes del fin de semana."
  },
  "meme": {
-  "top": "Wall Street: «hoy cerramos, toca pavo»",
-  "bottom": "El IBEX: «yo también quiero puente»",
+  "top": "Viernes de Black Friday",
+  "bottom": "Lo único que no está de rebajas es la incertidumbre electoral",
   "tag": "meme del día",
   "mood": "a"
  },
  "meme2": {
-  "top": "Poco volumen y elecciones a la vista",
-  "bottom": "La paciencia también cotiza",
+  "top": "Fin de semana electoral",
+  "bottom": "Liquidez lista, decisiones el lunes",
   "tag": "sabiduría ancestral",
   "mood": "a"
  },
  "ticks": [
   {
    "n": "IBEX 35",
-   "v": "18.635,8",
-   "c": -2.0
+   "v": "19.057,9",
+   "c": 2.26
   },
   {
    "n": "DAX",
-   "v": "24.702,1",
-   "c": -1.26
+   "v": "25.231,4",
+   "c": 2.14
   },
   {
    "n": "Euro Stoxx 50",
-   "v": "5.894,5",
-   "c": -1.82
+   "v": "6.018,7",
+   "c": 2.11
   },
   {
    "n": "CAC 40",
-   "v": "7.980,6",
-   "c": -0.75
+   "v": "8.108,7",
+   "c": 1.61
   },
   {
    "n": "S&P 500",
@@ -56,88 +56,83 @@
    "c": 0.33
   }
  ],
- "ticksNote": "Cierres del miércoles 25. Hoy Wall Street no abre (Acción de Gracias): no hay futuros de referencia.",
+ "ticksNote": "Europa: cierres del jueves 26. Wall Street estuvo cerrado el jueves: S&P 500, Nasdaq y Dow son del miércoles 25.",
  "today": [
-  "<b>Hoy Wall Street cierra por Acción de Gracias:</b> Europa sí abre. Mañana viernes, sesión corta en EE. UU.",
-  "<b>Remontada a medias en Wall Street:</b> el S&P 500 llegó a caer un 3,2 % y cerró con −0,25 %; el Nasdaq −0,62 % y el Dow +0,33 %, por encima de los 50.000.",
-  "<b>Inflación y aranceles:</b> el dato de inflación de EE. UU. volvió a preocupar y Washington plantea subir aranceles, con un 15 % para la UE.",
-  "<b>IBEX −2 % hasta 18.635,8, mínimos de tres meses:</b> la banca lideró las caídas (CaixaBank −4,19 %, Santander −3,96 %); Indra subió tras elevar sus objetivos.",
-  "<b>Deere sube un 4,5 %:</b> falló en beneficio, pero batió en ingresos y da por tocado fondo el ciclo agrícola. Inditex presenta el 2 de diciembre."
+  "<b>Elecciones generales el domingo 29:</b> los primeros resultados llegarán a partir de las 21:00 (hora peninsular). La reacción del IBEX se verá el lunes.",
+  "<b>Europa rebota con fuerza:</b> IBEX +2,26 % hasta 19.057,9, con las 35 en verde y Solaria +7,85 %. DAX +2,14 %, Euro Stoxx 50 +2,11 % y CAC +1,61 %.",
+  "<b>Alivio con los aranceles:</b> los aranceles de EE. UU. a Europa serían menos duros de lo temido: un 15 % que incluye los ya vigentes.",
+  "<b>Hoy, Black Friday:</b> Wall Street abre a las 15:30 y cierra antes, a las 19:00 hora de España. Poco volumen.",
+  "<b>La semana que viene:</b> Marvell y CrowdStrike (martes), Inditex, Salesforce y Snowflake (miércoles)."
  ],
- "quote": "En los días sin volumen, el que no opera rara vez se equivoca.",
+ "quote": "Antes de un acontecimiento importante, el tamaño de la posición importa más que la dirección.",
  "stocks": [
   {
-   "n": "Deere",
-   "m": "us",
-   "c": "US",
-   "tag": "Sube tras resultados",
-   "p": "—",
-   "v15": "wait",
-   "v1m": "in",
-   "why": "Falló en beneficio (3,89 $ por acción) pero sus ingresos (12.120 M$) superaron con holgura lo esperado y dio por tocado fondo el ciclo agrícola. La acción pasó de caer antes de la apertura a cerrar con +4,5 %.",
-   "lvl": "Mantener la subida del miércoles",
-   "ev": "Wall Street cerrado hoy",
-   "quip": "El campo vuelve a sembrar."
-  },
-  {
-   "n": "Nvidia",
-   "m": "us",
-   "c": "US",
-   "tag": "Segundo día a la baja",
+   "n": "Solaria",
+   "m": "es",
+   "c": "ES",
+   "tag": "Lidera el rebote",
    "p": "—",
    "v15": "wait",
    "v1m": "wait",
-   "why": "La IA cayó por segundo día tras el rebote del lunes por la vuelta de Jensen Huang. Con Wall Street cerrado hoy y sesión corta mañana, no hay prisa.",
-   "lvl": "—",
-   "ev": "Viernes, sesión corta",
-   "quip": "Puente largo para la IA."
+   "why": "La mejor del IBEX el jueves (+7,85 %) después de que el Gobierno de Uruguay apostara por convertirse en un centro regional de renovables. Venía de fuertes caídas: rebote, no tendencia.",
+   "lvl": "Consolidar la subida",
+   "ev": "Elecciones 29 nov",
+   "quip": "Sale el sol en Uruguay."
   },
   {
    "n": "CaixaBank",
    "m": "es",
    "c": "ES",
-   "tag": "Cae un 4,2 %",
-   "p": "—",
-   "v15": "no",
-   "v1m": "wait",
-   "why": "Encabezó las caídas del IBEX el miércoles (−4,19 %), que tocó mínimos de tres meses arrastrado por la banca.",
-   "lvl": "Esperar a ver suelo",
-   "ev": "Elecciones 29 nov",
-   "quip": "La banca paga los platos rotos."
-  },
-  {
-   "n": "Banco Santander",
-   "m": "es",
-   "c": "ES",
-   "tag": "Cae un 4 %",
-   "p": "—",
-   "v15": "no",
-   "v1m": "wait",
-   "why": "Se dejó un 3,96 % el miércoles. A tres días de las elecciones y con amenaza de aranceles del 15 % a la UE, la banca sufre.",
-   "lvl": "Esperar a las elecciones",
-   "ev": "Elecciones 29 nov",
-   "quip": "Las urnas primero, las órdenes después."
-  },
-  {
-   "n": "Indra",
-   "m": "es",
-   "c": "ES",
-   "tag": "Eleva objetivos 2030",
+   "tag": "La banca rebota",
    "p": "—",
    "v15": "wait",
-   "v1m": "in",
-   "why": "Fue de las pocas que subieron el miércoles tras elevar a 12.000 M€ su objetivo de ingresos para 2030 y anunciar que cuadruplicará su capacidad industrial.",
+   "v1m": "wait",
+   "why": "Tras caer un 4,19 % el miércoles, la banca sostuvo el rebote del jueves, cuando cerraron en verde las 35 del IBEX. Las elecciones del domingo pueden mover al sector el lunes.",
+   "lvl": "Esperar al resultado electoral",
+   "ev": "Elecciones 29 nov",
+   "quip": "Un día en el sótano, otro en la azotea."
+  },
+  {
+   "n": "Inditex",
+   "m": "es",
+   "c": "ES",
+   "tag": "Resultados 2 dic",
+   "p": "—",
+   "v15": "wait",
+   "v1m": "wait",
+   "why": "Presenta sus nueve meses el miércoles 2 antes de abrir. Hoy arranca el Black Friday: primer termómetro de la campaña de Navidad.",
    "lvl": "—",
-   "ev": "—",
-   "quip": "Plan ambicioso, bolsa receptiva."
+   "ev": "Resultados 2 dic",
+   "quip": "Black Friday en tienda, white paper en bolsa."
+  },
+  {
+   "n": "Amazon",
+   "m": "us",
+   "c": "US",
+   "tag": "Black Friday",
+   "p": "—",
+   "v15": "wait",
+   "v1m": "wait",
+   "why": "Arranca la temporada de compras de Navidad, con Wall Street en sesión corta (cierra a las 19:00 hora de España). Las primeras cifras de ventas online pueden mover a las de consumo.",
+   "lvl": "—",
+   "ev": "Cyber Monday 30 nov",
+   "quip": "Carrito lleno, volumen vacío."
+  },
+  {
+   "n": "Marvell",
+   "m": "us",
+   "c": "US",
+   "tag": "Resultados mar 1 dic",
+   "p": "—",
+   "v15": "wait",
+   "v1m": "wait",
+   "why": "Presenta el martes tras el cierre: será la primera prueba de la IA tras la caída de los chips de esta semana.",
+   "lvl": "—",
+   "ev": "Resultados 1 dic · ≈22:00",
+   "quip": "La IA vuelve a examen."
   }
  ],
  "events": [
-  {
-   "d": "2026-11-26",
-   "t": "Wall Street cerrado (Acción de Gracias)",
-   "s": "El viernes 27, sesión corta"
-  },
   {
    "d": "2026-11-29",
    "t": "Elecciones generales en España",
@@ -149,6 +144,11 @@
    "t": "Fed: decisión de tipos",
    "s": "¿Sube 0,25 o 0,50?",
    "hot": true
+  },
+  {
+   "d": "2026-12-09",
+   "t": "Broadcom: resultados (≈22:00)",
+   "s": "Prueba clave para los chips de IA"
   },
   {
    "d": "2026-12-17",
@@ -212,85 +212,19 @@
  ],
  "earnings": [
   {
-   "d": "2026-11-23",
+   "d": "2026-12-01",
    "h": "≈22:00",
-   "n": "Zoom",
+   "n": "Marvell",
    "c": "US",
-   "s": "BPA 1,59 $ vs 1,49 $ esperado y sube previsión · plano tras el cierre"
-  },
-  {
-   "d": "2026-11-23",
-   "h": "≈22:00",
-   "n": "Hewlett Packard Enterprise",
-   "c": "US",
-   "s": "Ingresos 14.550 M$ (+50 %) y BPA 1,43 $ vs 1,28 $ · −7 % fuera de hora tras subir un 17 %",
+   "s": "Chips para centros de datos e IA",
    "hot": true
   },
   {
-   "d": "2026-11-24",
-   "h": "antes de abrir",
-   "n": "Medtronic",
-   "c": "US",
-   "s": "BPA 1,34 $ (en línea) pero ingresos 9.400 M$, por debajo · −4,5 %"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "antes de abrir",
-   "n": "Analog Devices",
-   "c": "US",
-   "s": "Trimestre récord (ingresos 4.370 M$, BPA 4,06 $ vs 3,89 $) y aun así −17 %",
-   "hot": true
-  },
-  {
-   "d": "2026-11-24",
-   "h": "antes de abrir",
-   "n": "Best Buy",
-   "c": "US",
-   "s": "Bate: BPA 1,62 $ vs 1,49 $ e ingresos 10.240 M$ · reacción por confirmar"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "antes de abrir",
-   "n": "Dollar Tree",
-   "c": "US",
-   "s": "Bate con holgura (BPA 1,16 $ vs 0,91 $) · +11 %"
-  },
-  {
-   "d": "2026-11-24",
+   "d": "2026-12-01",
    "h": "≈22:00",
-   "n": "Dell",
+   "n": "CrowdStrike",
    "c": "US",
-   "s": "Ingresos récord de 54.940 M$ y BPA 9,45 $ vs 6,59 $; sube previsión · sube fuera de hora tras caer un 12 %",
-   "hot": true
-  },
-  {
-   "d": "2026-11-24",
-   "h": "≈22:00",
-   "n": "Workday",
-   "c": "US",
-   "s": "Bate, pero decepciona su previsión de suscripciones · −7 % fuera de hora"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "≈22:00",
-   "n": "HP",
-   "c": "US",
-   "s": "Ingresos 16.000 M$ vs 15.420 M$ esperado · sube fuera de hora"
-  },
-  {
-   "d": "2026-11-24",
-   "h": "≈22:00",
-   "n": "Autodesk",
-   "c": "US",
-   "s": "Bate y sube previsión · −4 % fuera de hora"
-  },
-  {
-   "d": "2026-11-25",
-   "h": "antes de abrir",
-   "n": "Deere",
-   "c": "US",
-   "s": "BPA 3,89 $ vs ≈4,05 $ esperado, pero ingresos 12.120 M$ vs 10.340 M$; da por tocado fondo el ciclo agrícola · +4,5 %",
-   "hot": true
+   "s": "Ciberseguridad"
   },
   {
    "d": "2026-12-02",
@@ -299,8 +233,23 @@
    "c": "ES",
    "s": "Nueve meses del ejercicio",
    "hot": true
+  },
+  {
+   "d": "2026-12-02",
+   "h": "≈22:00",
+   "n": "Salesforce",
+   "c": "US",
+   "s": "Software para empresas",
+   "hot": true
+  },
+  {
+   "d": "2026-12-02",
+   "h": "≈22:00",
+   "n": "Snowflake",
+   "c": "US",
+   "s": "Datos en la nube"
   }
  ],
- "earningsNote": "Hora de España. «Antes de abrir» = antes de las 15:30 en EE. UU. y antes de las 9:00 en España; «≈22:00» = tras el cierre de Wall Street. La semana que viene presentan también Salesforce, CrowdStrike, Marvell y Broadcom: las fuentes no coinciden en el día, se añadirán cuando estén confirmadas. Bandera y siglas: país de la sede.",
- "stocksNote": "Hoy jueves y mañana viernes no presenta ninguna gran empresa, así que el radar va solo con valores de España y EE. UU. con un motivo concreto hoy. Sin precios: no hay dato fiable a esta hora."
+ "earningsNote": "Hora de España. «Antes de abrir» = antes de las 9:00 en España; «≈22:00» = tras el cierre de Wall Street. Broadcom presenta el miércoles 9 de diciembre. Bandera y siglas: país de la sede.",
+ "stocksNote": "Hoy no presenta resultados ninguna gran empresa. El radar va con valores de España y EE. UU. con un motivo concreto hoy. Sin precios: no hay dato fiable a esta hora."
 }
